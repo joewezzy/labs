@@ -1,0 +1,130 @@
+On README ...
+-------------
+Files called `README' are often found on unix systems to attract the
+attention of people accessing the directory.  They contain important
+information about the software stored in the directory, for example,
+version information, operating modes, and installation notes.
+
+However, `README' is rather like any instruction manual in that people
+only tend to consult it when something goes wrong.  After the event!
+
+
+On passwords ...
+----------------
+New passwords should be at least five characters long if they
+combine upper-case and lower-case letters, or at least six characters
+long if in monocase.  Users that persist in entering shorter
+passwords are compromising their own security. The number of
+significant characters in a password is eight, although longer
+passwords will be accepted.
+
+Only the owner of the name or the super-user may change a password;
+the owner must prove he knows the old password.  The super-user can
+change any password and is not force to comply with password aging
+requirements.
+
+
+On ls ...
+---------
+For each filename which is a directory, ls lists the contents of the
+directory; for each filename which is a file, ls repeats its name and
+any other information requested.  By default, the output is sorted
+alphabetically.  When no argument is given, the current directory is
+listed.   When several arguments are given, the arguments are first
+sorted appropriately, but file arguments are processed before
+directories and their contents.
+
+In order to determine output formats for the -C, -x, and -m options,
+/usr/5bin/ls uses an environment variable, COLUMNS, to determine the
+number of character positions available on one output line.  If this
+variable is not set, the terminfo database is used to determine the
+number of columns, based on the environment variable TERM.  If this
+information cannot be obtained, 80 columns are assumed.  Here is a
+line which contains README!
+
+
+On grep ...
+-----------
+Commands of the grep family search the input filenames (the standard
+input default) for lines matching a pattern.  Normally, each line found
+is copied to the standard output.  grep patterns are limited regular
+expressions in the style of ed(1).  egrep patterns are full regular
+expressions including alternation.  fgrep patterns are fixed strings -
+no regular expression metacharacters are supported.
+
+When any of the grep utilities is applied to more than one input file,
+the name of the file is displayed preceding each line which matches the
+pattern.  The filename is not displayed when processing a single file,
+so if you actually want the filename to appear, use /dev/null as a
+second file in the list.
+
+
+
+On diff ...
+-----------
+diff is a differential file comparator.  When run on regular files, and
+when comparing text files that differ during directory comparison (see
+the notes below on comparing directories), diff tells what lines must
+be changed in the files to bring them into agreement.   Except in rare
+circumstances, diff finds a smallest sufficient set of differ- ences.
+If neither filename1 nor filename2 is a directory, either may be given
+as `-', in which case the standard input is used.  If filename1 is a
+directory, a file in that directory whose filename is the same as the
+filename of filename2 is used (and vice versa).
+
+These lines resemble ed(1) commands to convert filename1 into
+filename2.   The numbers after the letters pertain to filename2.  In
+fact, by exchanging a for d and reading backward one may ascertain
+equally how to convert filename2 into filename1.  As in ed(1),
+identical pairs, where n1 = n2 or n3 = n4, are abbreviated as a single
+number.
+
+Following each of these lines come all the lines that are affected in
+the first file flagged by `<', then all the lines that are affected in
+the second file flagged by `>'.
+
+If both arguments are directories, diff sorts the contents of the
+directories by name, and then runs the regular file diff program as
+described above on text files which are different.   Binary files which
+differ, common subdirectories, and files which appear in only one
+directory are listed.
+
+
+On sort ...
+-----------
+The sort program sorts and collates lines contained in the named files,
+and writes the result onto the standard output.  If no filename
+argument is given, or if `-' appears as an argument, sort accepts input
+from the standard input.
+
+Output lines are normally sorted on a character-by-character basis,
+from left to right within a line.  The default collating sequence is
+the ASCII character set.  Lines can also be sorted according to the
+contents of one or more fields specified by a sort-field,
+specification, using the +sw (starting-word), -ew (end-at-word), and
+the -tc (set-TAB-character/word delimiter) options, as  described
+under OPTIONS below.  When no word delimiter is specified, one or more
+adjacent white-space characters (SPACE and TAB) signify the end of the
+previous word; the lines:
+
+You can apply a character offset to sw and ew to indicate that a field
+is to start or end a given number of characters within a word, using
+the notation: `w.c'.  A starting position specified in the form: `+w.c'
+indicates the character in position c (beginning with 0 for the first
+character), within word w (1 and 1.0 are equivalent).  An ending
+position specified in the form:  `-w.c' indicates that the field ends
+at the character just prior to position c (beginning with 0 for the
+delimiter just prior to the first character), within word w.  If the -b
+flag is in effect, c is counted from the first non-white-space or
+non-delimiter character in the field, otherwise, delimiter characters
+are counted.
+
+The amount of main memory used by the sort has a large impact on its
+performance.  Sorting a small file in a large amount of memory is a
+waste.  If this option is omitted, sort begins using a system default
+memory size, and continues to add space as needed.   If this option is
+given sort starts with kmem, kilobytes of memory, if allowed, or as
+close to that amount as possible.   Supplying -y0 guarantees that sort
+starts with a minimum of memory.  By convention, -y (with no argument)
+starts with maximum memory.
+
