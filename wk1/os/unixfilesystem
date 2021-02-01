@@ -1,0 +1,24 @@
+Script started on 2021-01-24 19:28:26+0000
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ mkdir ~/unix
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ cd ~/unix/
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix[00m$ mkdir report/style
+mkdir: cannot create directory ‘report/style’: No such file or directory
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix[00m$ mkdir report/style[K[K[K[K[K
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix[00m$ mkdir report/style
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix[00m$ cd mkdir report/style[1P report/style[1P report/style[1P report/style[1P report/style[1P report/stylec report/styled report/style
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix/report/style[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix/report/style[00m$ ./
+bash: ./: Is a directory
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix/report/style[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix/report/style[00m$ cd ./
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix/report/style[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix/report/style[00m$ cd ./[3P./cd report/style[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kgeorge
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix/report/style[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix/report/style[00m$ cd ..
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix/report[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix/report[00m$ cd ..mkdir george[K[K[K[K[K[Ktext
+]0;joemarbell@DESKTOP-EUH7R9D: ~/unix/report[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/unix/report[00m$ exit
+
+Script done on 2021-01-24 19:30:30+0000
+The absolute home directory is /home/joemarbell/labs/os
+. represents the current directory
+.. represents the parent directory
+~ represents the home directory
+When tried on /bin directory is says permission denied
+It says failed because the directory contains files within it.
+The correct command is rmnix/new/
