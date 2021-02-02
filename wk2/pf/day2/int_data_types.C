@@ -5,7 +5,7 @@
 using namespace std;
 
 void efunction (){
-	/*enum {RED, YELLOW, AMBER=YELLOW, GREEN};
+	enum {RED, YELLOW, AMBER=YELLOW, GREEN};
 
         cout << "Q1. Working with Enum" << "\n";
         cout << "======================" << "\n";
@@ -13,7 +13,7 @@ void efunction (){
         cout << YELLOW << endl;
         cout << AMBER << endl;
         cout << GREEN << endl;
-        cout << "\n";*/
+        cout << "\n";
 }
 
 void ptr (){
@@ -76,16 +76,16 @@ int main() {
 	ptr();
 	words();
 	
-	/*cout << "Q4. Using type 'typedef'" << "\n";
+	cout << "Q4. Using type 'typedef'" << "\n";
 	cout << "========================" << "\n";
 	typedef char type_string[10];// using type library to create your own datatype like int
 	type_string strings;
 	cout << "Enter series of 10 strings" << "\n";
-	for (int i = 0; i < 10; i++){
-		cin >> strings;
-	}
+	cin >> strings;
+	//cout << strings;
 	int slen = strlen(strings);
+	cout << slen;
 	for (int i = 0; i < slen; ++i){
 		cout << strings[i] << "\n";
-	}*/	
+	}	
 }
