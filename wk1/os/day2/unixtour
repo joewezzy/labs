@@ -1,0 +1,2400 @@
+Script started on 2021-01-24 18:21:36+0000
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ echo $SHELL
+/bin/bash
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ date
+Sun Jan 24 18:22:13 GMT 2021
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ pu[Kwd
+/home/joemarbell/labs/os
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ whoami
+joemarbell
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls
+typescript
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ who
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ 
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ 
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls -c
+typescript
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls[K[Kstty erac[Kse
+stty: missing argument to ‚Äòerase‚Äô
+Try 'stty --help' for more information.
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ stty erase [K <DA[K[KBACKSPAV[KCE>
+bash: syntax error near unexpected token `newline'
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls | grep -c
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls | grep -c .
+1
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls
+typescript
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls | grep -c .[K[K[K[K[K[K[K[K[Ke[Kwc -c .
+wc: .: Is a directory
+0 .
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls
+typescript
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls /etc/
+[0m[01;34mNetworkManager[0m                 [01;34mdepmod.d[0m             [01;34mld.so.conf.d[0m         overlayroot.conf         services
+[01;34mX11[0m                            [01;34mdhcp[0m                 [01;34mldap[0m                 overlayroot.local.conf   shadow
+[01;34macpi[0m                           [01;34mdnsmasq.d[0m            legal                pam.conf                 shadow-
+adduser.conf                   [01;34mdnsmasq.d-available[0m  libaudit.conf        [01;34mpam.d[0m                    shells
+[01;34malternatives[0m                   [01;34mdpkg[0m                 locale.alias         passwd                   [01;34mskel[0m
+[01;34mapm[0m                            ec2_version          locale.gen           passwd-                  sos.conf
+[01;34mapparmor[0m                       environment          [01;36mlocaltime[0m            [01;34mperl[0m                     [01;34mssh[0m
+[01;34mapparmor.d[0m                     ethertypes           [01;34mlogcheck[0m             [01;34mpm[0m                       [01;34mssl[0m
+[01;34mapport[0m                         [01;34mfonts[0m                login.defs           [01;34mpolkit-1[0m                 subgid
+[01;34mapt[0m                            fstab                logrotate.conf       [01;34mpollinate[0m                subgid-
+at.deny                        fuse.conf            [01;34mlogrotate.d[0m          popularity-contest.conf  subuid
+bash.bashrc                    gai.conf             lsb-release          profile                  subuid-
+bash_completion                [01;34mgroff[0m                ltrace.conf          [01;34mprofile.d[0m                sudoers
+[01;34mbash_completion.d[0m              group                [01;34mlvm[0m                  protocols                [01;34msudoers.d[0m
+bindresvport.blacklist         group-               machine-id           [01;34mpulse[0m                    sysctl.conf
+[01;34mbinfmt.d[0m                       gshadow              magic                [01;34mpython3[0m                  [01;34msysctl.d[0m
+[01;34mbyobu[0m                          gshadow-             magic.mime           [01;34mpython3.6[0m                [01;34msystemd[0m
+[01;34mca-certificates[0m                [01;34mgss[0m                  mailcap              [01;34mrc0.d[0m                    [01;34mterminfo[0m
+ca-certificates.conf           hdparm.conf          mailcap.order        [01;34mrc1.d[0m                    timezone
+ca-certificates.conf.dpkg-old  host.conf            manpath.config       [01;34mrc2.d[0m                    [01;34mtmpfiles.d[0m
+[01;34mcalendar[0m                       hostname             [01;34mmdadm[0m                [01;34mrc3.d[0m                    ucf.conf
+[01;34mcloud[0m                          hosts                mime.types           [01;34mrc4.d[0m                    [01;34mudev[0m
+[01;34mconsole-setup[0m                  hosts.allow          mke2fs.conf          [01;34mrc5.d[0m                    [01;34mufw[0m
+[01;34mcron.d[0m                         hosts.deny           [01;34mmodprobe.d[0m           [01;34mrc6.d[0m                    [01;34mupdate-manager[0m
+[01;34mcron.daily[0m                     [01;34minit.d[0m               modules              [01;34mrcS.d[0m                    [01;34mupdate-motd.d[0m
+[01;34mcron.hourly[0m                    [01;34minitramfs-tools[0m      [01;34mmodules-load.d[0m       [01;36mresolv.conf[0m              [01;34mupdate-notifier[0m
+[01;34mcron.monthly[0m                   inputrc              [01;36mmtab[0m                 [01;32mrmt[0m                      updatedb.conf
+[01;34mcron.weekly[0m                    [01;34miproute2[0m             nanorc               rpc                      [01;34mvim[0m
+crontab                        [01;34miscsi[0m                [01;34mnetplan[0m              rsyslog.conf             [01;34mvmware-tools[0m
+[01;34mcryptsetup-initramfs[0m           issue                [01;34mnetwork[0m              [01;34mrsyslog.d[0m                [01;36mvtrgb[0m
+crypttab                       issue.net            [01;34mnetworkd-dispatcher[0m  screenrc                 wgetrc
+[01;34mdbus-1[0m                         [01;34mkernel[0m               networks             securetty                [01;34mxdg[0m
+debconf.conf                   kernel-img.conf      [01;34mnewt[0m                 [01;34msecurity[0m                 zsh_command_not_found
+debian_version                 [01;34mlandscape[0m            nsswitch.conf        [01;34mselinux[0m
+[01;34mdefault[0m                        ld.so.cache          [01;34mopt[0m                  [01;34msensors.d[0m
+deluser.conf                   ld.so.conf           [01;36mos-release[0m           sensors3.conf
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls "[K| fr[K[Kgrep "^[K/^[0-9]/" /etc/
+grep: /etc/: Is a directory
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls | grep "/^[0-9]/" /etc/[C[K[K[K[K[K[K[K[1P/^[0-9]/[C[C[C[C[C[C[C[C[K.[1P^[0-9].[C[C[C[C[C[C[C /etc/
+grep: /etc/: Is a directory
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls | grep ^[0-9]. /etc/[Kls | grep ^[0-9]. /etc/[K[K[K[K[K[C[C[1@/[1@e[3@tc/[1@ 
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls /etc/ | grep ^[0-9]. [K[K""^[0-9]"
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls /etc/ | grep "^[0-9]"[C^[0-9]. [1P| grep ^[0-9]. /etc/[3@"/^[0-9]/"[C[C[C[C[C[C[3P^[0-9].[C[C[C[C[C[C[3@"/^[0-9]/"[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@C[1@A[1P[1P[4@ls | grep ^[0-9].[C[C[C[C[C[C/etc/ | grep ^[0-9]. "^[0-9]"[Kls  > linefile
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ vi file[K[K[K[Kfile
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;30r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[30;1H"file" [New File][2;1H‚ñΩ[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[30;1H[1m-- INSERT --[m[30;13H[K[30;103H0,1[11CAll[1;1H[?25h[?25lH[30;103H1,2[1;2H[?25h[?25li[30;105H3[1;3H[?25h[?25l[30;105H4[1;4H[?25h[?25lj[30;105H5[1;5H[?25h[?25lo[30;105H6[1;6H[?25h[?25le[30;105H7[1;7H[?25h[?25l[30;105H8[1;8H[?25h[?25lh[30;105H9[1;9H[?25h[?25le[30;105H10[1;10H[?25h[?25lr[30;106H1[1;11H[?25h[?25le[30;106H2[1;12H[?25h[?25l![30;106H3[1;13H[?25h[?25l[2;1H[K[30;103H2,1 [2;1H[?25h[?25lN[30;105H2[2;2H[?25h[?25li[30;105H3[2;3H[?25h[?25lc[30;105H4[2;4H[?25h[?25le[30;105H5[2;5H[?25h[?25l[30;105H6[2;6H[?25h[?25lt[30;105H7[2;7H[?25h[?25lo[30;105H8[2;8H[?25h[?25l[30;105H9[2;9H[?25h[?25lm[30;105H10[2;10H[?25h[?25le[30;106H1[2;11H[?25h[?25le[30;106H2[2;12H[?25h[?25lt[30;106H3[2;13H[?25h[?25l[30;106H4[2;14H[?25h[?25la[30;106H5[2;15H[?25h[?25l[2;14H[K[30;106H4[2;14H[?25h[?25ly[30;106H5[2;15H[?25h[?25lo[30;106H6[2;16H[?25h[?25lu[30;106H7[2;17H[?25h[?25l[30;106H8[2;18H[?25h[?25la[30;106H9[2;19H[?25h[?25ll[30;105H20[2;20H[?25h[?25ll[30;106H1[2;21H[?25h[?25l,[30;106H2[2;22H[?25h[?25l[30;106H3[2;23H[?25h[?25lG[30;106H4[2;24H[?25h[?25la[30;106H5[2;25H[?25h[?25l[2;24H[K[30;106H4[2;24H[?25h[?25l[2;23H[K[30;106H3[2;23H[?25h[?25lG[30;106H4[2;24H[?25h[?25l[2;23H[K[30;106H3[2;23H[?25h[?25lH[30;106H4[2;24H[?25h[?25la[30;106H5[2;25H[?25h[?25lv[30;106H6[2;26H[?25h[?25le[30;106H7[2;27H[?25h[?25l[30;106H8[2;28H[?25h[?25la[30;106H9[2;29H[?25h[?25l[30;105H30[2;30H[?25h[?25lg[30;106H1[2;31H[?25h[?25le[30;106H2[2;32H[?25h[?25ls[30;106H3[2;33H[?25h[?25la[30;106H4[2;34H[?25h[?25lt[30;106H5[2;35H[?25h[?25l[2;34H[K[30;106H4[2;34H[?25h[?25l[2;33H[K[30;106H3[2;33H[?25h[?25l[2;32H[K[30;106H2[2;32H[?25h[?25l[2;31H[K[30;106H1[2;31H[?25h[?25lr[30;106H2[2;32H[?25h[?25le[30;106H3[2;33H[?25h[?25la[30;106H4[2;34H[?25h[?25lt[30;106H5[2;35H[?25h[?25l[30;106H6[2;36H[?25h[?25lt[30;106H7[2;37H[?25h[?25li[30;106H8[2;38H[?25h[?25lm[30;106H9[2;39H[?25h[?25le[30;105H40[2;40H[?25h[30;1H[K[2;39H[?25l[30;103H2,39[10CAll[2;39H[?25h[?25l[30;103H[K[30;1H:[?2004h[?25hx[?25l[?25h[?25l[?2004l"file" [New] 2L, 53C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ cat file
+Hi joe here!
+Nice to meet you all, Have a great time
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ stty
+speed 38400 baud; line = 0;
+eol = M-^?; eol2 = M-^?; swtch = M-^?;
+ixany iutf8
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls [K[Ks -l /etc/
+total 317
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [0m[01;34mNetworkManager[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34mX11[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34macpi[0m
+-rw-r--r-- 1 root root       3028 Aug 21 17:21 adduser.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34malternatives[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mapm[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mapparmor[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mapparmor.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mapport[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;34mapt[0m
+-rw-r----- 1 root daemon      144 Feb 20  2018 at.deny
+-rw-r--r-- 1 root root       2319 Apr  4  2018 bash.bashrc
+-rw-r--r-- 1 root root         45 Apr  2  2018 bash_completion
+drwxr-xr-x 1 root root        512 Aug 21 17:31 [01;34mbash_completion.d[0m
+-rw-r--r-- 1 root root        367 Jan 27  2016 bindresvport.blacklist
+drwxr-xr-x 1 root root        512 Apr 20  2018 [01;34mbinfmt.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mbyobu[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mca-certificates[0m
+-rw-r--r-- 1 root root       5986 Aug 21 17:23 ca-certificates.conf
+-rw-r--r-- 1 root root       5898 Aug 21 17:21 ca-certificates.conf.dpkg-old
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mcalendar[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mcloud[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mconsole-setup[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mcron.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mcron.daily[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mcron.hourly[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mcron.monthly[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mcron.weekly[0m
+-rw-r--r-- 1 root root        722 Nov 16  2017 crontab
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mcryptsetup-initramfs[0m
+-rw-r--r-- 1 root root         54 Aug 21 17:23 crypttab
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mdbus-1[0m
+-rw-r--r-- 1 root root       2969 Feb 28  2018 debconf.conf
+-rw-r--r-- 1 root root         11 Jun 25  2017 debian_version
+drwxr-xr-x 1 root root        512 Aug 21 17:31 [01;34mdefault[0m
+-rw-r--r-- 1 root root        604 Aug 13  2017 deluser.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mdepmod.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mdhcp[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mdnsmasq.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mdnsmasq.d-available[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;34mdpkg[0m
+-rw-r--r-- 1 root root         35 Aug 21 17:25 ec2_version
+-rw-r--r-- 1 root root         96 Aug 21 17:21 environment
+-rw-r--r-- 1 root root       1317 Jun 28  2018 ethertypes
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34mfonts[0m
+-rw-r--r-- 1 root root         43 Aug 21 17:25 fstab
+-rw-r--r-- 1 root root        280 Jun 20  2014 fuse.conf
+-rw-r--r-- 1 root root       2584 Feb  1  2018 gai.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mgroff[0m
+-rw-r--r-- 1 root root        821 Jan 20 14:49 group
+-rw-r--r-- 1 root root        809 Jan 20 14:46 group-
+-rw-r----- 1 root shadow      695 Jan 20 14:49 gshadow
+-rw-r----- 1 root shadow      687 Jan 20 14:46 gshadow-
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mgss[0m
+-rw-r--r-- 1 root root       4861 Feb 22  2018 hdparm.conf
+-rw-r--r-- 1 root root         92 Apr  9  2018 host.conf
+-rw-r--r-- 1 root root         16 Jan 21 09:22 hostname
+-rw-r--r-- 1 root root        427 Jan 21 09:22 hosts
+-rw-r--r-- 1 root root        411 Aug 21 17:24 hosts.allow
+-rw-r--r-- 1 root root        711 Aug 21 17:24 hosts.deny
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34minit.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34minitramfs-tools[0m
+-rw-r--r-- 1 root root       1748 May 15  2017 inputrc
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34miproute2[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34miscsi[0m
+-rw-r--r-- 1 root root         26 Aug  5 08:14 issue
+-rw-r--r-- 1 root root         19 Aug  5 08:14 issue.net
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mkernel[0m
+-rw-r--r-- 1 root root        110 Aug 21 17:23 kernel-img.conf
+drwxrwxr-x 1 root landscape   512 Feb 20  2020 [01;34mlandscape[0m
+-rw-r--r-- 1 root root      27138 Aug 21 17:52 ld.so.cache
+-rw-r--r-- 1 root root         34 Jan 27  2016 ld.so.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;34mld.so.conf.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mldap[0m
+-rw-r--r-- 1 root root        267 Apr  9  2018 legal
+-rw-r--r-- 1 root root        191 Feb  7  2018 libaudit.conf
+-rw-r--r-- 1 root root       2995 Apr 16  2018 locale.alias
+-rw-r--r-- 1 root root       9395 Aug 21 17:25 locale.gen
+lrwxrwxrwx 1 root root         38 Jan 21 09:22 [01;36mlocaltime[0m -> /usr/share/zoneinfo/Atlantic/Reykjavik
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mlogcheck[0m
+-rw-r--r-- 1 root root      10550 Jan 25  2018 login.defs
+-rw-r--r-- 1 root root        703 Aug 21  2017 logrotate.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mlogrotate.d[0m
+-rw-r--r-- 1 root root        105 Aug  5 08:11 lsb-release
+-rw-r--r-- 1 root root      14867 Oct 13  2016 ltrace.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mlvm[0m
+-r--r--r-- 1 root root          0 Aug 21 17:25 machine-id
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic.mime
+-rw-r--r-- 1 root root       3623 Aug 21 17:25 mailcap
+-rw-r--r-- 1 root root        449 Jul 15  2016 mailcap.order
+-rw-r--r-- 1 root root       5174 Aug  4  2018 manpath.config
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mmdadm[0m
+-rw-r--r-- 1 root root      24301 Jul 15  2016 mime.types
+-rw-r--r-- 1 root root        812 Mar 24  2018 mke2fs.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mmodprobe.d[0m
+-rw-r--r-- 1 root root        195 Aug 21 17:21 modules
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;34mmodules-load.d[0m
+lrwxrwxrwx 1 root root         19 Aug 21 17:22 [01;36mmtab[0m -> ../proc/self/mounts
+-rw-r--r-- 1 root root       9048 Feb 13  2018 nanorc
+drwxr-xr-x 1 root root        512 Apr 23  2018 [01;34mnetplan[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mnetwork[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mnetworkd-dispatcher[0m
+-rw-r--r-- 1 root root         91 Apr  9  2018 networks
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mnewt[0m
+-rw-r--r-- 1 root root        513 Aug 21 17:21 nsswitch.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:20 [01;34mopt[0m
+lrwxrwxrwx 1 root root         21 Aug  5 08:14 [01;36mos-release[0m -> ../usr/lib/os-release
+-rw-r--r-- 1 root root       6920 Sep 20  2018 overlayroot.conf
+-rw-r--r-- 1 root root        112 Aug 21 17:25 overlayroot.local.conf
+-rw-r--r-- 1 root root        552 Apr  4  2018 pam.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mpam.d[0m
+-rw-r--r-- 1 root root       1640 Jan 20 14:49 passwd
+-rw-r--r-- 1 root root       1605 Jan 20 14:46 passwd-
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mperl[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mpm[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mpolkit-1[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mpollinate[0m
+-rw-r--r-- 1 root root          0 Aug 21 17:25 popularity-contest.conf
+-rw-r--r-- 1 root root        581 Apr  9  2018 profile
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34mprofile.d[0m
+-rw-r--r-- 1 root root       2932 Dec 26  2016 protocols
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34mpulse[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mpython3[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mpython3.6[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mrc0.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mrc1.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:31 [01;34mrc2.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:31 [01;34mrc3.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:31 [01;34mrc4.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:31 [01;34mrc5.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mrc6.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34mrcS.d[0m
+lrwxrwxrwx 1 root root         29 Jan 20 09:50 [01;36mresolv.conf[0m -> ../run/resolvconf/resolv.conf
+-rwxr-xr-x 1 root root        268 Jul 21  2017 [01;32mrmt[0m
+-rw-r--r-- 1 root root        887 Dec 26  2016 rpc
+-rw-r--r-- 1 root root       1358 Jan 30  2018 rsyslog.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mrsyslog.d[0m
+-rw-r--r-- 1 root root       3663 Jun  9  2015 screenrc
+-rw-r--r-- 1 root root       4141 Jan 25  2018 securetty
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;34msecurity[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mselinux[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;34msensors.d[0m
+-rw-r--r-- 1 root root      10368 Apr  5  2017 sensors3.conf
+-rw-r--r-- 1 root root      19183 Dec 26  2016 services
+-rw-r----- 1 root shadow     1179 Jan 20 14:51 shadow
+-rw-r----- 1 root shadow      960 Jan 20 14:46 shadow-
+-rw-r--r-- 1 root root        103 Aug 21 17:24 shells
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;34mskel[0m
+-rw-r--r-- 1 root root        138 Mar 24  2020 sos.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mssh[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mssl[0m
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subgid
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subgid-
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subuid
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subuid-
+-r--r----- 1 root root        755 Jan 18  2018 sudoers
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34msudoers.d[0m
+-rw-r--r-- 1 root root       2683 Jan 17  2018 sysctl.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34msysctl.d[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:19 [01;34msystemd[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;34mterminfo[0m
+-rw-r--r-- 1 root root         19 Jan 21 09:22 timezone
+drwxr-xr-x 1 root root        512 Aug 21 17:24 [01;34mtmpfiles.d[0m
+-rw-r--r-- 1 root root       1260 Feb 26  2018 ucf.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mudev[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mufw[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mupdate-manager[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mupdate-motd.d[0m
+drwxr-xr-x 1 root root        512 May 24  2019 [01;34mupdate-notifier[0m
+-rw-r--r-- 1 root root        403 Mar  1  2018 updatedb.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:23 [01;34mvim[0m
+drwxr-xr-x 1 root root        512 Aug 21 17:25 [01;34mvmware-tools[0m
+lrwxrwxrwx 1 root root         23 Aug 21 17:21 [01;36mvtrgb[0m -> /etc/alternatives/vtrgb
+-rw-r--r-- 1 root root       4942 Apr  8  2019 wgetrc
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;34mxdg[0m
+-rw-r--r-- 1 root root        477 Mar 16  2018 zsh_command_not_found
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls -l /etc/ | sort -vn
+sort: invalid option -- 'v'
+Try 'sort --help' for more information.
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls -l /etc/ | sort -vn[C[1Pnrn
+total 317
+lrwxrwxrwx 1 root root         38 Jan 21 09:22 localtime -> /usr/share/zoneinfo/Atlantic/Reykjavik
+lrwxrwxrwx 1 root root         29 Jan 20 09:50 resolv.conf -> ../run/resolvconf/resolv.conf
+lrwxrwxrwx 1 root root         23 Aug 21 17:21 vtrgb -> /etc/alternatives/vtrgb
+lrwxrwxrwx 1 root root         21 Aug  5 08:14 os-release -> ../usr/lib/os-release
+lrwxrwxrwx 1 root root         19 Aug 21 17:22 mtab -> ../proc/self/mounts
+drwxrwxr-x 1 root landscape   512 Feb 20  2020 landscape
+drwxr-xr-x 1 root root        512 May 24  2019 update-notifier
+drwxr-xr-x 1 root root        512 Aug 21 17:52 sensors.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 rcS.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 pulse
+drwxr-xr-x 1 root root        512 Aug 21 17:52 profile.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 init.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 fonts
+drwxr-xr-x 1 root root        512 Aug 21 17:52 alternatives
+drwxr-xr-x 1 root root        512 Aug 21 17:52 X11
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc5.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc4.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc3.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc2.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 default
+drwxr-xr-x 1 root root        512 Aug 21 17:31 bash_completion.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 vmware-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-motd.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-manager
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ufw
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sysctl.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sudoers.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ssh
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rsyslog.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc6.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc1.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc0.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pollinate
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pam.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 lvm
+drwxr-xr-x 1 root root        512 Aug 21 17:25 logrotate.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d-available
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.weekly
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.daily
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cloud
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apport
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apparmor.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 tmpfiles.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 polkit-1
+drwxr-xr-x 1 root root        512 Aug 21 17:24 modprobe.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 mdadm
+drwxr-xr-x 1 root root        512 Aug 21 17:24 logcheck
+drwxr-xr-x 1 root root        512 Aug 21 17:24 ldap
+drwxr-xr-x 1 root root        512 Aug 21 17:24 iscsi
+drwxr-xr-x 1 root root        512 Aug 21 17:24 groff
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cryptsetup-initramfs
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cron.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 calendar
+drwxr-xr-x 1 root root        512 Aug 21 17:24 byobu
+drwxr-xr-x 1 root root        512 Aug 21 17:24 apparmor
+drwxr-xr-x 1 root root        512 Aug 21 17:24 NetworkManager
+drwxr-xr-x 1 root root        512 Aug 21 17:23 vim
+drwxr-xr-x 1 root root        512 Aug 21 17:23 udev
+drwxr-xr-x 1 root root        512 Aug 21 17:23 ssl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 python3.6
+drwxr-xr-x 1 root root        512 Aug 21 17:23 pm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 perl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 networkd-dispatcher
+drwxr-xr-x 1 root root        512 Aug 21 17:23 network
+drwxr-xr-x 1 root root        512 Aug 21 17:23 iproute2
+drwxr-xr-x 1 root root        512 Aug 21 17:23 initramfs-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:23 gss
+drwxr-xr-x 1 root root        512 Aug 21 17:23 dhcp
+drwxr-xr-x 1 root root        512 Aug 21 17:23 depmod.d
+drwxr-xr-x 1 root root        512 Aug 21 17:23 console-setup
+drwxr-xr-x 1 root root        512 Aug 21 17:23 apm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 acpi
+drwxr-xr-x 1 root root        512 Aug 21 17:22 terminfo
+drwxr-xr-x 1 root root        512 Aug 21 17:22 skel
+drwxr-xr-x 1 root root        512 Aug 21 17:22 security
+drwxr-xr-x 1 root root        512 Aug 21 17:22 modules-load.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 ld.so.conf.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 dpkg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 apt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 xdg
+drwxr-xr-x 1 root root        512 Aug 21 17:21 selinux
+drwxr-xr-x 1 root root        512 Aug 21 17:21 python3
+drwxr-xr-x 1 root root        512 Aug 21 17:21 newt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 kernel
+drwxr-xr-x 1 root root        512 Aug 21 17:21 dbus-1
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.monthly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.hourly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 ca-certificates
+drwxr-xr-x 1 root root        512 Aug 21 17:20 opt
+drwxr-xr-x 1 root root        512 Aug 21 17:19 systemd
+drwxr-xr-x 1 root root        512 Apr 23  2018 netplan
+drwxr-xr-x 1 root root        512 Apr 20  2018 binfmt.d
+-rwxr-xr-x 1 root root        268 Jul 21  2017 rmt
+-rw-r--r-- 1 root root      27138 Aug 21 17:52 ld.so.cache
+-rw-r--r-- 1 root root      24301 Jul 15  2016 mime.types
+-rw-r--r-- 1 root root      19183 Dec 26  2016 services
+-rw-r--r-- 1 root root      14867 Oct 13  2016 ltrace.conf
+-rw-r--r-- 1 root root      10550 Jan 25  2018 login.defs
+-rw-r--r-- 1 root root      10368 Apr  5  2017 sensors3.conf
+-rw-r--r-- 1 root root       9395 Aug 21 17:25 locale.gen
+-rw-r--r-- 1 root root       9048 Feb 13  2018 nanorc
+-rw-r--r-- 1 root root       6920 Sep 20  2018 overlayroot.conf
+-rw-r--r-- 1 root root       5986 Aug 21 17:23 ca-certificates.conf
+-rw-r--r-- 1 root root       5898 Aug 21 17:21 ca-certificates.conf.dpkg-old
+-rw-r--r-- 1 root root       5174 Aug  4  2018 manpath.config
+-rw-r--r-- 1 root root       4942 Apr  8  2019 wgetrc
+-rw-r--r-- 1 root root       4861 Feb 22  2018 hdparm.conf
+-rw-r--r-- 1 root root       4141 Jan 25  2018 securetty
+-rw-r--r-- 1 root root       3663 Jun  9  2015 screenrc
+-rw-r--r-- 1 root root       3623 Aug 21 17:25 mailcap
+-rw-r--r-- 1 root root       3028 Aug 21 17:21 adduser.conf
+-rw-r--r-- 1 root root       2995 Apr 16  2018 locale.alias
+-rw-r--r-- 1 root root       2969 Feb 28  2018 debconf.conf
+-rw-r--r-- 1 root root       2932 Dec 26  2016 protocols
+-rw-r--r-- 1 root root       2683 Jan 17  2018 sysctl.conf
+-rw-r--r-- 1 root root       2584 Feb  1  2018 gai.conf
+-rw-r--r-- 1 root root       2319 Apr  4  2018 bash.bashrc
+-rw-r--r-- 1 root root       1748 May 15  2017 inputrc
+-rw-r--r-- 1 root root       1640 Jan 20 14:49 passwd
+-rw-r--r-- 1 root root       1605 Jan 20 14:46 passwd-
+-rw-r--r-- 1 root root       1358 Jan 30  2018 rsyslog.conf
+-rw-r--r-- 1 root root       1317 Jun 28  2018 ethertypes
+-rw-r--r-- 1 root root       1260 Feb 26  2018 ucf.conf
+-rw-r--r-- 1 root root        887 Dec 26  2016 rpc
+-rw-r--r-- 1 root root        821 Jan 20 14:49 group
+-rw-r--r-- 1 root root        812 Mar 24  2018 mke2fs.conf
+-rw-r--r-- 1 root root        809 Jan 20 14:46 group-
+-rw-r--r-- 1 root root        722 Nov 16  2017 crontab
+-rw-r--r-- 1 root root        711 Aug 21 17:24 hosts.deny
+-rw-r--r-- 1 root root        703 Aug 21  2017 logrotate.conf
+-rw-r--r-- 1 root root        604 Aug 13  2017 deluser.conf
+-rw-r--r-- 1 root root        581 Apr  9  2018 profile
+-rw-r--r-- 1 root root        552 Apr  4  2018 pam.conf
+-rw-r--r-- 1 root root        513 Aug 21 17:21 nsswitch.conf
+-rw-r--r-- 1 root root        477 Mar 16  2018 zsh_command_not_found
+-rw-r--r-- 1 root root        449 Jul 15  2016 mailcap.order
+-rw-r--r-- 1 root root        427 Jan 21 09:22 hosts
+-rw-r--r-- 1 root root        411 Aug 21 17:24 hosts.allow
+-rw-r--r-- 1 root root        403 Mar  1  2018 updatedb.conf
+-rw-r--r-- 1 root root        367 Jan 27  2016 bindresvport.blacklist
+-rw-r--r-- 1 root root        280 Jun 20  2014 fuse.conf
+-rw-r--r-- 1 root root        267 Apr  9  2018 legal
+-rw-r--r-- 1 root root        195 Aug 21 17:21 modules
+-rw-r--r-- 1 root root        191 Feb  7  2018 libaudit.conf
+-rw-r--r-- 1 root root        138 Mar 24  2020 sos.conf
+-rw-r--r-- 1 root root        112 Aug 21 17:25 overlayroot.local.conf
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic.mime
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic
+-rw-r--r-- 1 root root        110 Aug 21 17:23 kernel-img.conf
+-rw-r--r-- 1 root root        105 Aug  5 08:11 lsb-release
+-rw-r--r-- 1 root root        103 Aug 21 17:24 shells
+-rw-r--r-- 1 root root         96 Aug 21 17:21 environment
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subuid
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subgid
+-rw-r--r-- 1 root root         92 Apr  9  2018 host.conf
+-rw-r--r-- 1 root root         91 Apr  9  2018 networks
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subuid-
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subgid-
+-rw-r--r-- 1 root root         54 Aug 21 17:23 crypttab
+-rw-r--r-- 1 root root         45 Apr  2  2018 bash_completion
+-rw-r--r-- 1 root root         43 Aug 21 17:25 fstab
+-rw-r--r-- 1 root root         35 Aug 21 17:25 ec2_version
+-rw-r--r-- 1 root root         34 Jan 27  2016 ld.so.conf
+-rw-r--r-- 1 root root         26 Aug  5 08:14 issue
+-rw-r--r-- 1 root root         19 Jan 21 09:22 timezone
+-rw-r--r-- 1 root root         19 Aug  5 08:14 issue.net
+-rw-r--r-- 1 root root         16 Jan 21 09:22 hostname
+-rw-r--r-- 1 root root         11 Jun 25  2017 debian_version
+-rw-r--r-- 1 root root          0 Aug 21 17:25 popularity-contest.conf
+-rw-r----- 1 root shadow     1179 Jan 20 14:51 shadow
+-rw-r----- 1 root shadow      960 Jan 20 14:46 shadow-
+-rw-r----- 1 root shadow      695 Jan 20 14:49 gshadow
+-rw-r----- 1 root shadow      687 Jan 20 14:46 gshadow-
+-rw-r----- 1 root daemon      144 Feb 20  2018 at.deny
+-r--r--r-- 1 root root          0 Aug 21 17:25 machine-id
+-r--r----- 1 root root        755 Jan 18  2018 sudoers
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls -l /etc/ | sort -rnk5
+-rw-r--r-- 1 root root      27138 Aug 21 17:52 ld.so.cache
+-rw-r--r-- 1 root root      24301 Jul 15  2016 mime.types
+-rw-r--r-- 1 root root      19183 Dec 26  2016 services
+-rw-r--r-- 1 root root      14867 Oct 13  2016 ltrace.conf
+-rw-r--r-- 1 root root      10550 Jan 25  2018 login.defs
+-rw-r--r-- 1 root root      10368 Apr  5  2017 sensors3.conf
+-rw-r--r-- 1 root root       9395 Aug 21 17:25 locale.gen
+-rw-r--r-- 1 root root       9048 Feb 13  2018 nanorc
+-rw-r--r-- 1 root root       6920 Sep 20  2018 overlayroot.conf
+-rw-r--r-- 1 root root       5986 Aug 21 17:23 ca-certificates.conf
+-rw-r--r-- 1 root root       5898 Aug 21 17:21 ca-certificates.conf.dpkg-old
+-rw-r--r-- 1 root root       5174 Aug  4  2018 manpath.config
+-rw-r--r-- 1 root root       4942 Apr  8  2019 wgetrc
+-rw-r--r-- 1 root root       4861 Feb 22  2018 hdparm.conf
+-rw-r--r-- 1 root root       4141 Jan 25  2018 securetty
+-rw-r--r-- 1 root root       3663 Jun  9  2015 screenrc
+-rw-r--r-- 1 root root       3623 Aug 21 17:25 mailcap
+-rw-r--r-- 1 root root       3028 Aug 21 17:21 adduser.conf
+-rw-r--r-- 1 root root       2995 Apr 16  2018 locale.alias
+-rw-r--r-- 1 root root       2969 Feb 28  2018 debconf.conf
+-rw-r--r-- 1 root root       2932 Dec 26  2016 protocols
+-rw-r--r-- 1 root root       2683 Jan 17  2018 sysctl.conf
+-rw-r--r-- 1 root root       2584 Feb  1  2018 gai.conf
+-rw-r--r-- 1 root root       2319 Apr  4  2018 bash.bashrc
+-rw-r--r-- 1 root root       1748 May 15  2017 inputrc
+-rw-r--r-- 1 root root       1640 Jan 20 14:49 passwd
+-rw-r--r-- 1 root root       1605 Jan 20 14:46 passwd-
+-rw-r--r-- 1 root root       1358 Jan 30  2018 rsyslog.conf
+-rw-r--r-- 1 root root       1317 Jun 28  2018 ethertypes
+-rw-r--r-- 1 root root       1260 Feb 26  2018 ucf.conf
+-rw-r----- 1 root shadow     1179 Jan 20 14:51 shadow
+-rw-r----- 1 root shadow      960 Jan 20 14:46 shadow-
+-rw-r--r-- 1 root root        887 Dec 26  2016 rpc
+-rw-r--r-- 1 root root        821 Jan 20 14:49 group
+-rw-r--r-- 1 root root        812 Mar 24  2018 mke2fs.conf
+-rw-r--r-- 1 root root        809 Jan 20 14:46 group-
+-r--r----- 1 root root        755 Jan 18  2018 sudoers
+-rw-r--r-- 1 root root        722 Nov 16  2017 crontab
+-rw-r--r-- 1 root root        711 Aug 21 17:24 hosts.deny
+-rw-r--r-- 1 root root        703 Aug 21  2017 logrotate.conf
+-rw-r----- 1 root shadow      695 Jan 20 14:49 gshadow
+-rw-r----- 1 root shadow      687 Jan 20 14:46 gshadow-
+-rw-r--r-- 1 root root        604 Aug 13  2017 deluser.conf
+-rw-r--r-- 1 root root        581 Apr  9  2018 profile
+-rw-r--r-- 1 root root        552 Apr  4  2018 pam.conf
+-rw-r--r-- 1 root root        513 Aug 21 17:21 nsswitch.conf
+drwxrwxr-x 1 root landscape   512 Feb 20  2020 landscape
+drwxr-xr-x 1 root root        512 May 24  2019 update-notifier
+drwxr-xr-x 1 root root        512 Aug 21 17:52 sensors.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 rcS.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 pulse
+drwxr-xr-x 1 root root        512 Aug 21 17:52 profile.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 init.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 fonts
+drwxr-xr-x 1 root root        512 Aug 21 17:52 alternatives
+drwxr-xr-x 1 root root        512 Aug 21 17:52 X11
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc5.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc4.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc3.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc2.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 default
+drwxr-xr-x 1 root root        512 Aug 21 17:31 bash_completion.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 vmware-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-motd.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-manager
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ufw
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sysctl.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sudoers.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ssh
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rsyslog.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc6.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc1.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc0.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pollinate
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pam.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 lvm
+drwxr-xr-x 1 root root        512 Aug 21 17:25 logrotate.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d-available
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.weekly
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.daily
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cloud
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apport
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apparmor.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 tmpfiles.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 polkit-1
+drwxr-xr-x 1 root root        512 Aug 21 17:24 modprobe.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 mdadm
+drwxr-xr-x 1 root root        512 Aug 21 17:24 logcheck
+drwxr-xr-x 1 root root        512 Aug 21 17:24 ldap
+drwxr-xr-x 1 root root        512 Aug 21 17:24 iscsi
+drwxr-xr-x 1 root root        512 Aug 21 17:24 groff
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cryptsetup-initramfs
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cron.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 calendar
+drwxr-xr-x 1 root root        512 Aug 21 17:24 byobu
+drwxr-xr-x 1 root root        512 Aug 21 17:24 apparmor
+drwxr-xr-x 1 root root        512 Aug 21 17:24 NetworkManager
+drwxr-xr-x 1 root root        512 Aug 21 17:23 vim
+drwxr-xr-x 1 root root        512 Aug 21 17:23 udev
+drwxr-xr-x 1 root root        512 Aug 21 17:23 ssl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 python3.6
+drwxr-xr-x 1 root root        512 Aug 21 17:23 pm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 perl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 networkd-dispatcher
+drwxr-xr-x 1 root root        512 Aug 21 17:23 network
+drwxr-xr-x 1 root root        512 Aug 21 17:23 iproute2
+drwxr-xr-x 1 root root        512 Aug 21 17:23 initramfs-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:23 gss
+drwxr-xr-x 1 root root        512 Aug 21 17:23 dhcp
+drwxr-xr-x 1 root root        512 Aug 21 17:23 depmod.d
+drwxr-xr-x 1 root root        512 Aug 21 17:23 console-setup
+drwxr-xr-x 1 root root        512 Aug 21 17:23 apm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 acpi
+drwxr-xr-x 1 root root        512 Aug 21 17:22 terminfo
+drwxr-xr-x 1 root root        512 Aug 21 17:22 skel
+drwxr-xr-x 1 root root        512 Aug 21 17:22 security
+drwxr-xr-x 1 root root        512 Aug 21 17:22 modules-load.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 ld.so.conf.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 dpkg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 apt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 xdg
+drwxr-xr-x 1 root root        512 Aug 21 17:21 selinux
+drwxr-xr-x 1 root root        512 Aug 21 17:21 python3
+drwxr-xr-x 1 root root        512 Aug 21 17:21 newt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 kernel
+drwxr-xr-x 1 root root        512 Aug 21 17:21 dbus-1
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.monthly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.hourly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 ca-certificates
+drwxr-xr-x 1 root root        512 Aug 21 17:20 opt
+drwxr-xr-x 1 root root        512 Aug 21 17:19 systemd
+drwxr-xr-x 1 root root        512 Apr 23  2018 netplan
+drwxr-xr-x 1 root root        512 Apr 20  2018 binfmt.d
+-rw-r--r-- 1 root root        477 Mar 16  2018 zsh_command_not_found
+-rw-r--r-- 1 root root        449 Jul 15  2016 mailcap.order
+-rw-r--r-- 1 root root        427 Jan 21 09:22 hosts
+-rw-r--r-- 1 root root        411 Aug 21 17:24 hosts.allow
+-rw-r--r-- 1 root root        403 Mar  1  2018 updatedb.conf
+-rw-r--r-- 1 root root        367 Jan 27  2016 bindresvport.blacklist
+-rw-r--r-- 1 root root        280 Jun 20  2014 fuse.conf
+-rwxr-xr-x 1 root root        268 Jul 21  2017 rmt
+-rw-r--r-- 1 root root        267 Apr  9  2018 legal
+-rw-r--r-- 1 root root        195 Aug 21 17:21 modules
+-rw-r--r-- 1 root root        191 Feb  7  2018 libaudit.conf
+-rw-r----- 1 root daemon      144 Feb 20  2018 at.deny
+-rw-r--r-- 1 root root        138 Mar 24  2020 sos.conf
+-rw-r--r-- 1 root root        112 Aug 21 17:25 overlayroot.local.conf
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic.mime
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic
+-rw-r--r-- 1 root root        110 Aug 21 17:23 kernel-img.conf
+-rw-r--r-- 1 root root        105 Aug  5 08:11 lsb-release
+-rw-r--r-- 1 root root        103 Aug 21 17:24 shells
+-rw-r--r-- 1 root root         96 Aug 21 17:21 environment
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subuid
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subgid
+-rw-r--r-- 1 root root         92 Apr  9  2018 host.conf
+-rw-r--r-- 1 root root         91 Apr  9  2018 networks
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subuid-
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subgid-
+-rw-r--r-- 1 root root         54 Aug 21 17:23 crypttab
+-rw-r--r-- 1 root root         45 Apr  2  2018 bash_completion
+-rw-r--r-- 1 root root         43 Aug 21 17:25 fstab
+lrwxrwxrwx 1 root root         38 Jan 21 09:22 localtime -> /usr/share/zoneinfo/Atlantic/Reykjavik
+-rw-r--r-- 1 root root         35 Aug 21 17:25 ec2_version
+-rw-r--r-- 1 root root         34 Jan 27  2016 ld.so.conf
+lrwxrwxrwx 1 root root         29 Jan 20 09:50 resolv.conf -> ../run/resolvconf/resolv.conf
+-rw-r--r-- 1 root root         26 Aug  5 08:14 issue
+lrwxrwxrwx 1 root root         23 Aug 21 17:21 vtrgb -> /etc/alternatives/vtrgb
+lrwxrwxrwx 1 root root         21 Aug  5 08:14 os-release -> ../usr/lib/os-release
+lrwxrwxrwx 1 root root         19 Aug 21 17:22 mtab -> ../proc/self/mounts
+-rw-r--r-- 1 root root         19 Jan 21 09:22 timezone
+-rw-r--r-- 1 root root         19 Aug  5 08:14 issue.net
+-rw-r--r-- 1 root root         16 Jan 21 09:22 hostname
+-rw-r--r-- 1 root root         11 Jun 25  2017 debian_version
+total 317
+-rw-r--r-- 1 root root          0 Aug 21 17:25 popularity-contest.conf
+-r--r--r-- 1 root root          0 Aug 21 17:25 machine-id
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ catld[K[K ld.[K[K[K/etc/ld
+ld.so.cache   ld.so.conf    ld.so.conf.d/ ldap/         
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ cat /etc/ldls -l /etc/ | sort -rnk5[1Pk5[1Pk5
+total 317
+-r--r--r-- 1 root root          0 Aug 21 17:25 machine-id
+-rw-r--r-- 1 root root          0 Aug 21 17:25 popularity-contest.conf
+-rw-r--r-- 1 root root         11 Jun 25  2017 debian_version
+-rw-r--r-- 1 root root         16 Jan 21 09:22 hostname
+-rw-r--r-- 1 root root         19 Aug  5 08:14 issue.net
+lrwxrwxrwx 1 root root         19 Aug 21 17:22 mtab -> ../proc/self/mounts
+-rw-r--r-- 1 root root         19 Jan 21 09:22 timezone
+lrwxrwxrwx 1 root root         21 Aug  5 08:14 os-release -> ../usr/lib/os-release
+lrwxrwxrwx 1 root root         23 Aug 21 17:21 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r-- 1 root root         26 Aug  5 08:14 issue
+lrwxrwxrwx 1 root root         29 Jan 20 09:50 resolv.conf -> ../run/resolvconf/resolv.conf
+-rw-r--r-- 1 root root         34 Jan 27  2016 ld.so.conf
+-rw-r--r-- 1 root root         35 Aug 21 17:25 ec2_version
+lrwxrwxrwx 1 root root         38 Jan 21 09:22 localtime -> /usr/share/zoneinfo/Atlantic/Reykjavik
+-rw-r--r-- 1 root root         43 Aug 21 17:25 fstab
+-rw-r--r-- 1 root root         45 Apr  2  2018 bash_completion
+-rw-r--r-- 1 root root         54 Aug 21 17:23 crypttab
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subgid-
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subuid-
+-rw-r--r-- 1 root root         91 Apr  9  2018 networks
+-rw-r--r-- 1 root root         92 Apr  9  2018 host.conf
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subgid
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subuid
+-rw-r--r-- 1 root root         96 Aug 21 17:21 environment
+-rw-r--r-- 1 root root        103 Aug 21 17:24 shells
+-rw-r--r-- 1 root root        105 Aug  5 08:11 lsb-release
+-rw-r--r-- 1 root root        110 Aug 21 17:23 kernel-img.conf
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic.mime
+-rw-r--r-- 1 root root        112 Aug 21 17:25 overlayroot.local.conf
+-rw-r--r-- 1 root root        138 Mar 24  2020 sos.conf
+-rw-r--r-- 1 root root        191 Feb  7  2018 libaudit.conf
+-rw-r--r-- 1 root root        195 Aug 21 17:21 modules
+-rw-r--r-- 1 root root        267 Apr  9  2018 legal
+-rwxr-xr-x 1 root root        268 Jul 21  2017 rmt
+-rw-r--r-- 1 root root        280 Jun 20  2014 fuse.conf
+-rw-r--r-- 1 root root        367 Jan 27  2016 bindresvport.blacklist
+-rw-r--r-- 1 root root        403 Mar  1  2018 updatedb.conf
+-rw-r--r-- 1 root root        411 Aug 21 17:24 hosts.allow
+-rw-r--r-- 1 root root        427 Jan 21 09:22 hosts
+-rw-r--r-- 1 root root        449 Jul 15  2016 mailcap.order
+-rw-r--r-- 1 root root        477 Mar 16  2018 zsh_command_not_found
+drwxr-xr-x 1 root root        512 Apr 20  2018 binfmt.d
+drwxr-xr-x 1 root root        512 Apr 23  2018 netplan
+drwxr-xr-x 1 root root        512 Aug 21 17:19 systemd
+drwxr-xr-x 1 root root        512 Aug 21 17:20 opt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 ca-certificates
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.hourly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.monthly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 dbus-1
+drwxr-xr-x 1 root root        512 Aug 21 17:21 kernel
+drwxr-xr-x 1 root root        512 Aug 21 17:21 newt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 python3
+drwxr-xr-x 1 root root        512 Aug 21 17:21 selinux
+drwxr-xr-x 1 root root        512 Aug 21 17:21 xdg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 apt
+drwxr-xr-x 1 root root        512 Aug 21 17:22 dpkg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 ld.so.conf.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 modules-load.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 security
+drwxr-xr-x 1 root root        512 Aug 21 17:22 skel
+drwxr-xr-x 1 root root        512 Aug 21 17:22 terminfo
+drwxr-xr-x 1 root root        512 Aug 21 17:23 acpi
+drwxr-xr-x 1 root root        512 Aug 21 17:23 apm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 console-setup
+drwxr-xr-x 1 root root        512 Aug 21 17:23 depmod.d
+drwxr-xr-x 1 root root        512 Aug 21 17:23 dhcp
+drwxr-xr-x 1 root root        512 Aug 21 17:23 gss
+drwxr-xr-x 1 root root        512 Aug 21 17:23 initramfs-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:23 iproute2
+drwxr-xr-x 1 root root        512 Aug 21 17:23 network
+drwxr-xr-x 1 root root        512 Aug 21 17:23 networkd-dispatcher
+drwxr-xr-x 1 root root        512 Aug 21 17:23 perl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 pm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 python3.6
+drwxr-xr-x 1 root root        512 Aug 21 17:23 ssl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 udev
+drwxr-xr-x 1 root root        512 Aug 21 17:23 vim
+drwxr-xr-x 1 root root        512 Aug 21 17:24 NetworkManager
+drwxr-xr-x 1 root root        512 Aug 21 17:24 apparmor
+drwxr-xr-x 1 root root        512 Aug 21 17:24 byobu
+drwxr-xr-x 1 root root        512 Aug 21 17:24 calendar
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cron.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cryptsetup-initramfs
+drwxr-xr-x 1 root root        512 Aug 21 17:24 groff
+drwxr-xr-x 1 root root        512 Aug 21 17:24 iscsi
+drwxr-xr-x 1 root root        512 Aug 21 17:24 ldap
+drwxr-xr-x 1 root root        512 Aug 21 17:24 logcheck
+drwxr-xr-x 1 root root        512 Aug 21 17:24 mdadm
+drwxr-xr-x 1 root root        512 Aug 21 17:24 modprobe.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 polkit-1
+drwxr-xr-x 1 root root        512 Aug 21 17:24 tmpfiles.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apparmor.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apport
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cloud
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.daily
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.weekly
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d-available
+drwxr-xr-x 1 root root        512 Aug 21 17:25 logrotate.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 lvm
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pam.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pollinate
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc0.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc1.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc6.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rsyslog.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ssh
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sudoers.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sysctl.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ufw
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-manager
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-motd.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 vmware-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:31 bash_completion.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 default
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc2.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc3.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc4.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc5.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 X11
+drwxr-xr-x 1 root root        512 Aug 21 17:52 alternatives
+drwxr-xr-x 1 root root        512 Aug 21 17:52 fonts
+drwxr-xr-x 1 root root        512 Aug 21 17:52 init.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 profile.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 pulse
+drwxr-xr-x 1 root root        512 Aug 21 17:52 rcS.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 sensors.d
+drwxr-xr-x 1 root root        512 May 24  2019 update-notifier
+-rw-r--r-- 1 root root        513 Aug 21 17:21 nsswitch.conf
+-rw-r--r-- 1 root root        552 Apr  4  2018 pam.conf
+-rw-r--r-- 1 root root        581 Apr  9  2018 profile
+-rw-r--r-- 1 root root        604 Aug 13  2017 deluser.conf
+-rw-r--r-- 1 root root        703 Aug 21  2017 logrotate.conf
+-rw-r--r-- 1 root root        711 Aug 21 17:24 hosts.deny
+-rw-r--r-- 1 root root        722 Nov 16  2017 crontab
+-r--r----- 1 root root        755 Jan 18  2018 sudoers
+-rw-r--r-- 1 root root        809 Jan 20 14:46 group-
+-rw-r--r-- 1 root root        812 Mar 24  2018 mke2fs.conf
+-rw-r--r-- 1 root root        821 Jan 20 14:49 group
+-rw-r--r-- 1 root root        887 Dec 26  2016 rpc
+-rw-r--r-- 1 root root       1260 Feb 26  2018 ucf.conf
+-rw-r--r-- 1 root root       1317 Jun 28  2018 ethertypes
+-rw-r--r-- 1 root root       1358 Jan 30  2018 rsyslog.conf
+-rw-r--r-- 1 root root       1605 Jan 20 14:46 passwd-
+-rw-r--r-- 1 root root       1640 Jan 20 14:49 passwd
+-rw-r--r-- 1 root root       1748 May 15  2017 inputrc
+-rw-r--r-- 1 root root       2319 Apr  4  2018 bash.bashrc
+-rw-r--r-- 1 root root       2584 Feb  1  2018 gai.conf
+-rw-r--r-- 1 root root       2683 Jan 17  2018 sysctl.conf
+-rw-r--r-- 1 root root       2932 Dec 26  2016 protocols
+-rw-r--r-- 1 root root       2969 Feb 28  2018 debconf.conf
+-rw-r--r-- 1 root root       2995 Apr 16  2018 locale.alias
+-rw-r--r-- 1 root root       3028 Aug 21 17:21 adduser.conf
+-rw-r--r-- 1 root root       3623 Aug 21 17:25 mailcap
+-rw-r--r-- 1 root root       3663 Jun  9  2015 screenrc
+-rw-r--r-- 1 root root       4141 Jan 25  2018 securetty
+-rw-r--r-- 1 root root       4861 Feb 22  2018 hdparm.conf
+-rw-r--r-- 1 root root       4942 Apr  8  2019 wgetrc
+-rw-r--r-- 1 root root       5174 Aug  4  2018 manpath.config
+-rw-r--r-- 1 root root       5898 Aug 21 17:21 ca-certificates.conf.dpkg-old
+-rw-r--r-- 1 root root       5986 Aug 21 17:23 ca-certificates.conf
+-rw-r--r-- 1 root root       6920 Sep 20  2018 overlayroot.conf
+-rw-r--r-- 1 root root       9048 Feb 13  2018 nanorc
+-rw-r--r-- 1 root root       9395 Aug 21 17:25 locale.gen
+-rw-r--r-- 1 root root      10368 Apr  5  2017 sensors3.conf
+-rw-r--r-- 1 root root      10550 Jan 25  2018 login.defs
+-rw-r----- 1 root daemon      144 Feb 20  2018 at.deny
+-rw-r--r-- 1 root root      14867 Oct 13  2016 ltrace.conf
+-rw-r--r-- 1 root root      19183 Dec 26  2016 services
+-rw-r--r-- 1 root root      24301 Jul 15  2016 mime.types
+-rw-r--r-- 1 root root      27138 Aug 21 17:52 ld.so.cache
+-rw-r----- 1 root shadow      687 Jan 20 14:46 gshadow-
+-rw-r----- 1 root shadow      695 Jan 20 14:49 gshadow
+-rw-r----- 1 root shadow      960 Jan 20 14:46 shadow-
+-rw-r----- 1 root shadow     1179 Jan 20 14:51 shadow
+drwxrwxr-x 1 root landscape   512 Feb 20  2020 landscape
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls -l /etc/ | sort -k5nk5
+-r--r--r-- 1 root root          0 Aug 21 17:25 machine-id
+-rw-r--r-- 1 root root          0 Aug 21 17:25 popularity-contest.conf
+total 317
+-rw-r--r-- 1 root root         11 Jun 25  2017 debian_version
+-rw-r--r-- 1 root root         16 Jan 21 09:22 hostname
+-rw-r--r-- 1 root root         19 Aug  5 08:14 issue.net
+-rw-r--r-- 1 root root         19 Jan 21 09:22 timezone
+lrwxrwxrwx 1 root root         19 Aug 21 17:22 mtab -> ../proc/self/mounts
+lrwxrwxrwx 1 root root         21 Aug  5 08:14 os-release -> ../usr/lib/os-release
+lrwxrwxrwx 1 root root         23 Aug 21 17:21 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r-- 1 root root         26 Aug  5 08:14 issue
+lrwxrwxrwx 1 root root         29 Jan 20 09:50 resolv.conf -> ../run/resolvconf/resolv.conf
+-rw-r--r-- 1 root root         34 Jan 27  2016 ld.so.conf
+-rw-r--r-- 1 root root         35 Aug 21 17:25 ec2_version
+lrwxrwxrwx 1 root root         38 Jan 21 09:22 localtime -> /usr/share/zoneinfo/Atlantic/Reykjavik
+-rw-r--r-- 1 root root         43 Aug 21 17:25 fstab
+-rw-r--r-- 1 root root         45 Apr  2  2018 bash_completion
+-rw-r--r-- 1 root root         54 Aug 21 17:23 crypttab
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subgid-
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subuid-
+-rw-r--r-- 1 root root         91 Apr  9  2018 networks
+-rw-r--r-- 1 root root         92 Apr  9  2018 host.conf
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subgid
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subuid
+-rw-r--r-- 1 root root         96 Aug 21 17:21 environment
+-rw-r--r-- 1 root root        103 Aug 21 17:24 shells
+-rw-r--r-- 1 root root        105 Aug  5 08:11 lsb-release
+-rw-r--r-- 1 root root        110 Aug 21 17:23 kernel-img.conf
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic.mime
+-rw-r--r-- 1 root root        112 Aug 21 17:25 overlayroot.local.conf
+-rw-r--r-- 1 root root        138 Mar 24  2020 sos.conf
+-rw-r----- 1 root daemon      144 Feb 20  2018 at.deny
+-rw-r--r-- 1 root root        191 Feb  7  2018 libaudit.conf
+-rw-r--r-- 1 root root        195 Aug 21 17:21 modules
+-rw-r--r-- 1 root root        267 Apr  9  2018 legal
+-rwxr-xr-x 1 root root        268 Jul 21  2017 rmt
+-rw-r--r-- 1 root root        280 Jun 20  2014 fuse.conf
+-rw-r--r-- 1 root root        367 Jan 27  2016 bindresvport.blacklist
+-rw-r--r-- 1 root root        403 Mar  1  2018 updatedb.conf
+-rw-r--r-- 1 root root        411 Aug 21 17:24 hosts.allow
+-rw-r--r-- 1 root root        427 Jan 21 09:22 hosts
+-rw-r--r-- 1 root root        449 Jul 15  2016 mailcap.order
+-rw-r--r-- 1 root root        477 Mar 16  2018 zsh_command_not_found
+drwxr-xr-x 1 root root        512 Apr 20  2018 binfmt.d
+drwxr-xr-x 1 root root        512 Apr 23  2018 netplan
+drwxr-xr-x 1 root root        512 Aug 21 17:19 systemd
+drwxr-xr-x 1 root root        512 Aug 21 17:20 opt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 ca-certificates
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.hourly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.monthly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 dbus-1
+drwxr-xr-x 1 root root        512 Aug 21 17:21 kernel
+drwxr-xr-x 1 root root        512 Aug 21 17:21 newt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 python3
+drwxr-xr-x 1 root root        512 Aug 21 17:21 selinux
+drwxr-xr-x 1 root root        512 Aug 21 17:21 xdg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 apt
+drwxr-xr-x 1 root root        512 Aug 21 17:22 dpkg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 ld.so.conf.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 modules-load.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 security
+drwxr-xr-x 1 root root        512 Aug 21 17:22 skel
+drwxr-xr-x 1 root root        512 Aug 21 17:22 terminfo
+drwxr-xr-x 1 root root        512 Aug 21 17:23 acpi
+drwxr-xr-x 1 root root        512 Aug 21 17:23 apm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 console-setup
+drwxr-xr-x 1 root root        512 Aug 21 17:23 depmod.d
+drwxr-xr-x 1 root root        512 Aug 21 17:23 dhcp
+drwxr-xr-x 1 root root        512 Aug 21 17:23 gss
+drwxr-xr-x 1 root root        512 Aug 21 17:23 initramfs-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:23 iproute2
+drwxr-xr-x 1 root root        512 Aug 21 17:23 network
+drwxr-xr-x 1 root root        512 Aug 21 17:23 networkd-dispatcher
+drwxr-xr-x 1 root root        512 Aug 21 17:23 perl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 pm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 python3.6
+drwxr-xr-x 1 root root        512 Aug 21 17:23 ssl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 udev
+drwxr-xr-x 1 root root        512 Aug 21 17:23 vim
+drwxr-xr-x 1 root root        512 Aug 21 17:24 NetworkManager
+drwxr-xr-x 1 root root        512 Aug 21 17:24 apparmor
+drwxr-xr-x 1 root root        512 Aug 21 17:24 byobu
+drwxr-xr-x 1 root root        512 Aug 21 17:24 calendar
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cron.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cryptsetup-initramfs
+drwxr-xr-x 1 root root        512 Aug 21 17:24 groff
+drwxr-xr-x 1 root root        512 Aug 21 17:24 iscsi
+drwxr-xr-x 1 root root        512 Aug 21 17:24 ldap
+drwxr-xr-x 1 root root        512 Aug 21 17:24 logcheck
+drwxr-xr-x 1 root root        512 Aug 21 17:24 mdadm
+drwxr-xr-x 1 root root        512 Aug 21 17:24 modprobe.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 polkit-1
+drwxr-xr-x 1 root root        512 Aug 21 17:24 tmpfiles.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apparmor.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apport
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cloud
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.daily
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.weekly
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d-available
+drwxr-xr-x 1 root root        512 Aug 21 17:25 logrotate.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 lvm
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pam.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pollinate
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc0.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc1.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc6.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rsyslog.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ssh
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sudoers.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sysctl.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ufw
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-manager
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-motd.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 vmware-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:31 bash_completion.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 default
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc2.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc3.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc4.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc5.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 X11
+drwxr-xr-x 1 root root        512 Aug 21 17:52 alternatives
+drwxr-xr-x 1 root root        512 Aug 21 17:52 fonts
+drwxr-xr-x 1 root root        512 Aug 21 17:52 init.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 profile.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 pulse
+drwxr-xr-x 1 root root        512 Aug 21 17:52 rcS.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 sensors.d
+drwxr-xr-x 1 root root        512 May 24  2019 update-notifier
+drwxrwxr-x 1 root landscape   512 Feb 20  2020 landscape
+-rw-r--r-- 1 root root        513 Aug 21 17:21 nsswitch.conf
+-rw-r--r-- 1 root root        552 Apr  4  2018 pam.conf
+-rw-r--r-- 1 root root        581 Apr  9  2018 profile
+-rw-r--r-- 1 root root        604 Aug 13  2017 deluser.conf
+-rw-r----- 1 root shadow      687 Jan 20 14:46 gshadow-
+-rw-r----- 1 root shadow      695 Jan 20 14:49 gshadow
+-rw-r--r-- 1 root root        703 Aug 21  2017 logrotate.conf
+-rw-r--r-- 1 root root        711 Aug 21 17:24 hosts.deny
+-rw-r--r-- 1 root root        722 Nov 16  2017 crontab
+-r--r----- 1 root root        755 Jan 18  2018 sudoers
+-rw-r--r-- 1 root root        809 Jan 20 14:46 group-
+-rw-r--r-- 1 root root        812 Mar 24  2018 mke2fs.conf
+-rw-r--r-- 1 root root        821 Jan 20 14:49 group
+-rw-r--r-- 1 root root        887 Dec 26  2016 rpc
+-rw-r----- 1 root shadow      960 Jan 20 14:46 shadow-
+-rw-r----- 1 root shadow     1179 Jan 20 14:51 shadow
+-rw-r--r-- 1 root root       1260 Feb 26  2018 ucf.conf
+-rw-r--r-- 1 root root       1317 Jun 28  2018 ethertypes
+-rw-r--r-- 1 root root       1358 Jan 30  2018 rsyslog.conf
+-rw-r--r-- 1 root root       1605 Jan 20 14:46 passwd-
+-rw-r--r-- 1 root root       1640 Jan 20 14:49 passwd
+-rw-r--r-- 1 root root       1748 May 15  2017 inputrc
+-rw-r--r-- 1 root root       2319 Apr  4  2018 bash.bashrc
+-rw-r--r-- 1 root root       2584 Feb  1  2018 gai.conf
+-rw-r--r-- 1 root root       2683 Jan 17  2018 sysctl.conf
+-rw-r--r-- 1 root root       2932 Dec 26  2016 protocols
+-rw-r--r-- 1 root root       2969 Feb 28  2018 debconf.conf
+-rw-r--r-- 1 root root       2995 Apr 16  2018 locale.alias
+-rw-r--r-- 1 root root       3028 Aug 21 17:21 adduser.conf
+-rw-r--r-- 1 root root       3623 Aug 21 17:25 mailcap
+-rw-r--r-- 1 root root       3663 Jun  9  2015 screenrc
+-rw-r--r-- 1 root root       4141 Jan 25  2018 securetty
+-rw-r--r-- 1 root root       4861 Feb 22  2018 hdparm.conf
+-rw-r--r-- 1 root root       4942 Apr  8  2019 wgetrc
+-rw-r--r-- 1 root root       5174 Aug  4  2018 manpath.config
+-rw-r--r-- 1 root root       5898 Aug 21 17:21 ca-certificates.conf.dpkg-old
+-rw-r--r-- 1 root root       5986 Aug 21 17:23 ca-certificates.conf
+-rw-r--r-- 1 root root       6920 Sep 20  2018 overlayroot.conf
+-rw-r--r-- 1 root root       9048 Feb 13  2018 nanorc
+-rw-r--r-- 1 root root       9395 Aug 21 17:25 locale.gen
+-rw-r--r-- 1 root root      10368 Apr  5  2017 sensors3.conf
+-rw-r--r-- 1 root root      10550 Jan 25  2018 login.defs
+-rw-r--r-- 1 root root      14867 Oct 13  2016 ltrace.conf
+-rw-r--r-- 1 root root      19183 Dec 26  2016 services
+-rw-r--r-- 1 root root      24301 Jul 15  2016 mime.types
+-rw-r--r-- 1 root root      27138 Aug 21 17:52 ld.so.cache
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ cat /etc/ld.so.cache 
+ld.so-1.7.0 &    ®  µ    ‹  Ê          >  O    z  á    Æ  ¿    Ï  ˘       0    Z  r    §  ∞    ÷  Á      $    P  d    í  ¢    Ã  ›          D  Q    t  Å    ®  ∫    Ê  ı       .     G   V     n   y     û   ´     Œ   €     ˛   !    :!  J!    p!  !    ®!  æ!    Ó!  "    4"  L"    ~"  ê"    º"  Õ"    Ù"  #    $#  2#    V#  b#    à#  ö#    ¬#  –#    ¯#  $    .$  =$    f$  t$    ú$  ¨$    ÷$  ·$    %  %    <%  L%    v%  à%    ∞%  æ%    ‚%  Ú%    &  *&    N&  ^&    à&  ô&    ƒ&  ‘&    ˙&  
+'    0'  >'    f'  s'    ö'  •'    ∆'  ’'    ˛'  (    2(  C(    j(  {(    ¢(  ≤(    ‹(  Ò(     )  .)    V)  k)    ö)  ™)    –)  ‹)    *  *    6*  C*    j*  É*    ∂*  œ*    +  +    J+  Y+    Ç+  é+    ∞+  Ã+    ˛+  ,    D,  \,    ä,  õ,    ∆,  ÷,     -  -    >-  K-    n-  ~-    §-  ∂-    ‚-  Ó-    .  .    H.  W.    |.  ã.    ¥.  ¬.    Í.  ˜.    /  +/    R/  ^/    Ä/  å/    ≤/  ø/    Ê/  ˜/    0  20    \0  p0    ö0  ™0    –0  „0    1  1    F1  V1    |1  è1    ∏1  ƒ1    Ê1  Û1    2  &2    H2  Y2    Ñ2  ñ2    ¬2  “2    ¯2  3    03  B3    n3  ä3    ¿3  —3    ¯3  4    .4  ;4    ^4  m4    ñ4  £4     4  ÿ4     5  5    25  >5    `5  n5    ñ5  £5     5  Ÿ5    ˛5  6    46  >6    ^6  j6    ê6  ù6    ¿6  Õ6    6  ¸6    "7  27    \7  o7    ò7  ™7    “7  Â7    8  #8    N8  _8    ä8  ó8    æ8  “8     9  9    69  C9    j9  w9    ö9  ´9    “9  ·9    :  :    ::  P:    |:  ç:    ∏:  »:    Ú:   ;    (;  =;    l;  Å;    ¨;  ∫;    ‚;  ;    <  &<    N<  [<    Ç<  è<    ∂<  √<    Ê<  ı<    =  -=    V=  g=    í=  £=    Œ=  ›=    >  >    B>  P>    x>  à>    ≤>  ¬>    Ë>  ¯>    ?  +?    A?  R?    }?  é?    π?  …?    Û?  @    @  '@    A@  U@    É@  ó@    ≈@  ‘@    ˝@  	A    /A  AA    iA  }A    ´A  ªA    ÂA  ÚA    B  -B    [B  lB    óB  •B    ÕB  ÊB    C  )C    SC  gC    ïC  ¢C    …C  ŸC    ˇC  D    1D  >D    aD  qD    õD  ¨D    ◊D  ÂD    E  E    AE  QE    {E  éE    ªE  «E    ÌE  ˚E    F  0F    [F  gF    âF  òF    ΩF  ÀF    ÛF  G    +G  9G    ]G  oG    õG  ®G    œG  €G    H  H    5H  GH    sH  ÉH    ≠H  ΩH    ÁH  ˙H    'I  ;I    iI  {I    ßI  ∫I    ÁI  ÛI    J  (J    QJ  gJ    óJ  ≠J    ŸJ  ‰J    K  K    IK  fK    ôK  ∏K    ÌK  L    IL  hL    ùL  æL    ıL  M    KM  aM    ëM  †M    ≈M  “M    ˘M  N    -N  AN    oN  ÉN    ≠N  æN    ÈN  ¸N    )O  7O    [O  kO    ëO  ûO    ¡O  ÕO    ÔO  ˛O    #P  -P    MP  [P    P  çP    µP  ¡P    ÁP  ÛP    Q  #Q    GQ  WQ    ÅQ  èQ    ≥Q  ¿Q    „Q  ÔQ    R  !R    KR  ZR    ÉR  êR    ∑R  ∆R    ÔR  S    5S  GS    sS  ÜS    ≥S  ƒS    ÎS  ˜S    T  %T    GT  _T    ëT  ùT    √T  ”T    ˝T  U    7U  HU    sU  ~U    £U  ∞U    ◊U  ‚U    V  V    AV  PV    yV  ÖV    ´V  ∏V    ﬂV  ÎV    W  "W    MW  XW    }W  âW    ØW  æW    ÁW  ÙW    X  )X    QX  aX    ãX  ûX    ÀX  ◊X    ˝X  	Y    /Y  >Y    cY  nY    ìY  £Y    ÕY  €Y    Z  Z    5Z  CZ    kZ  ~Z    ´Z  ºZ    ÁZ  ÛZ    [  $[    I[  V[    }[  è[    ™[  ø[    Í[  ˇ[    Í[  ˇ[  glibc-ld.so.cache1.1%  Ç@                        ®  µ                ‹  Ê                                  >  O                z  á                Æ  ¿                Ï  ˘                   0                Z  r                §  ∞                ÷  Á                  $                P  d                í  ¢                Ã  ›                                  D  Q                t  Å                ®  ∫                Ê  ı                   .                 G   V                 n   y                 û   ´                 Œ   €               ˛   !                :!  J!                p!  !                ®!  æ!                Ó!  "                4"  L"                ~"  ê"                º"  Õ"                Ù"  #                $#  2#                V#  b#                à#  ö#              ¬#  –#                ¯#  $                .$  =$                f$  t$                ú$  ¨$                ÷$  ·$                %  %                <%  L%                v%  à%                ∞%  æ%                ‚%  Ú%                &  *&                N&  ^&                à&  ô&                ƒ&  ‘&                ˙&  
+'                0'  >'                f'  s'                ö'  •'              ∆'  ’'                ˛'  (              2(  C(                j(  {(                ¢(  ≤(                ‹(  Ò(                 )  .)                V)  k)                ö)  ™)              –)  ‹)                *  *                6*  C*                j*  É*                ∂*  œ*                +  +                J+  Y+                Ç+  é+                ∞+  Ã+                ˛+  ,                D,  \,                ä,  õ,                ∆,  ÷,                 -  -                >-  K-                n-  ~-              §-  ∂-                ‚-  Ó-                .  .                H.  W.                |.  ã.                ¥.  ¬.                Í.  ˜.                /  +/                R/  ^/                Ä/  å/                ≤/  ø/                Ê/  ˜/                0  20                \0  p0              ö0  ™0              –0  „0              1  1              F1  V1              |1  è1              ∏1  ƒ1              Ê1  Û1                2  &2                H2  Y2                Ñ2  ñ2                ¬2  “2                ¯2  3                03  B3                n3  ä3                ¿3  —3                ¯3  4                .4  ;4              ^4  m4                ñ4  £4                 4  ÿ4                 5  5                25  >5                `5  n5                ñ5  £5                 5  Ÿ5              ˛5  6                46  >6              ^6  j6                ê6  ù6                ¿6  Õ6                6  ¸6                "7  27                \7  o7                ò7  ™7                “7  Â7                8  #8                N8  _8                ä8  ó8                æ8  “8                 9  9                69  C9                j9  w9                ö9  ´9                “9  ·9                :  :                ::  P:                |:  ç:                ∏:  »:                Ú:   ;                (;  =;                l;  Å;                ¨;  ∫;                ‚;  ;                <  &<                N<  [<                Ç<  è<                ∂<  √<                Ê<  ı<                =  -=                V=  g=                í=  £=                Œ=  ›=                >  >                B>  P>                x>  à>                ≤>  ¬>                Ë>  ¯>                ?  +?                A?  R?                }?  é?                π?  …?                Û?  @                @  '@                A@  U@                É@  ó@                ≈@  ‘@                ˝@  	A                /A  AA                iA  }A                ´A  ªA                ÂA  ÚA                B  -B                [B  lB                óB  •B                ÕB  ÊB                C  )C                SC  gC                ïC  ¢C                …C  ŸC                ˇC  D                1D  >D                aD  qD                õD  ¨D                ◊D  ÂD                E  E                AE  QE                {E  éE                ªE  «E                ÌE  ˚E                F  0F                [F  gF                âF  òF                ΩF  ÀF                ÛF  G                +G  9G                ]G  oG                õG  ®G                œG  €G                H  H                5H  GH                sH  ÉH                ≠H  ΩH                ÁH  ˙H                'I  ;I                iI  {I                ßI  ∫I                ÁI  ÛI                J  (J                QJ  gJ                óJ  ≠J                ŸJ  ‰J              K  K                IK  fK                ôK  ∏K                ÌK  L                IL  hL                ùL  æL                ıL  M                KM  aM                ëM  †M                ≈M  “M                ˘M  N                -N  AN                oN  ÉN                ≠N  æN                ÈN  ¸N                )O  7O              [O  kO                ëO  ûO              ¡O  ÕO                ÔO  ˛O                #P  -P              MP  [P                P  çP                µP  ¡P                ÁP  ÛP                Q  #Q                GQ  WQ                ÅQ  èQ                ≥Q  ¿Q                „Q  ÔQ                R  !R                KR  ZR                ÉR  êR                ∑R  ∆R                ÔR  S                5S  GS                sS  ÜS                ≥S  ƒS                ÎS  ˜S              T  %T                GT  _T                ëT  ùT                √T  ”T                ˝T  U                7U  HU                sU  ~U                £U  ∞U                ◊U  ‚U                V  V                AV  PV                yV  ÖV                ´V  ∏V                ﬂV  ÎV                W  "W                MW  XW                }W  âW                ØW  æW                ÁW  ÙW                X  )X                QX  aX                ãX  ûX                ÀX  ◊X                ˝X  	Y                /Y  >Y              cY  nY                ìY  £Y                ÕY  €Y                Z  Z                5Z  CZ                kZ  ~Z                ´Z  ºZ                ÁZ  ÛZ                [  $[                I[  V[                }[  è[                ™[  ø[              Í[  ˇ[              libzstd.so.1 /usr/lib/x86_64-linux-gnu/libzstd.so.1 libz.so.1 /lib/x86_64-linux-gnu/libz.so.1 libyaml-0.so.2 /usr/lib/x86_64-linux-gnu/libyaml-0.so.2 libxtables.so.12 /usr/lib/x86_64-linux-gnu/libxtables.so.12 libxslt.so.1 /usr/lib/x86_64-linux-gnu/libxslt.so.1 libxshmfence.so.1 /usr/lib/x86_64-linux-gnu/libxshmfence.so.1 libxml2.so.2 /usr/lib/x86_64-linux-gnu/libxml2.so.2 libxmlsec1.so.1 /usr/lib/x86_64-linux-gnu/libxmlsec1.so.1 libxmlsec1-openssl.so.1 /usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1 libxcb.so.1 /usr/lib/x86_64-linux-gnu/libxcb.so.1 libxcb-sync.so.1 /usr/lib/x86_64-linux-gnu/libxcb-sync.so.1 libxcb-shape.so.0 /usr/lib/x86_64-linux-gnu/libxcb-shape.so.0 libxcb-present.so.0 /usr/lib/x86_64-linux-gnu/libxcb-present.so.0 libxcb-glx.so.0 /usr/lib/x86_64-linux-gnu/libxcb-glx.so.0 libxcb-dri3.so.0 /usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0 libxcb-dri2.so.0 /usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0 libwrap.so.0 /lib/x86_64-linux-gnu/libwrap.so.0 libwind.so.0 /usr/lib/x86_64-linux-gnu/libwind.so.0 libvorbisenc.so.2 /usr/lib/x86_64-linux-gnu/libvorbisenc.so.2 libvorbis.so.0 /usr/lib/x86_64-linux-gnu/libvorbis.so.0 libvmtools.so.0 /usr/lib/libvmtools.so.0 libvgauth.so.0 /usr/lib/libvgauth.so.0 libuv.so.1 /usr/lib/x86_64-linux-gnu/libuv.so.1 libuuid.so.1 /lib/x86_64-linux-gnu/libuuid.so.1 libutil.so.1 /lib/x86_64-linux-gnu/libutil.so.1 libutempter.so.0 /usr/lib/x86_64-linux-gnu/libutempter.so.0 libusb-1.0.so.0 /lib/x86_64-linux-gnu/libusb-1.0.so.0 libunwind.so.8 /usr/lib/x86_64-linux-gnu/libunwind.so.8 libunwind-x86_64.so.8 /usr/lib/x86_64-linux-gnu/libunwind-x86_64.so.8 libunwind-ptrace.so.0 /usr/lib/x86_64-linux-gnu/libunwind-ptrace.so.0 libunwind-coredump.so.0 /usr/lib/x86_64-linux-gnu/libunwind-coredump.so.0 libunistring.so.2 /usr/lib/x86_64-linux-gnu/libunistring.so.2 libulockmgr.so.1 /lib/x86_64-linux-gnu/libulockmgr.so.1 libudev.so.1 /lib/x86_64-linux-gnu/libudev.so.1 libtinfo.so.5 /lib/x86_64-linux-gnu/libtinfo.so.5 libtic.so.5 /usr/lib/x86_64-linux-gnu/libtic.so.5 libthread_db.so.1 /lib/x86_64-linux-gnu/libthread_db.so.1 libtasn1.so.6 /usr/lib/x86_64-linux-gnu/libtasn1.so.6 libsystemd.so.0 /lib/x86_64-linux-gnu/libsystemd.so.0 libstdc++.so.6 /usr/lib/x86_64-linux-gnu/libstdc++.so.6 libssl.so.1.1 /usr/lib/x86_64-linux-gnu/libssl.so.1.1 libssl.so.1.0.0 /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 libss.so.2 /lib/x86_64-linux-gnu/libss.so.2 libsqlite3.so.0 /usr/lib/x86_64-linux-gnu/libsqlite3.so.0 libsndfile.so.1 /usr/lib/x86_64-linux-gnu/libsndfile.so.1 libsmartcols.so.1 /lib/x86_64-linux-gnu/libsmartcols.so.1 libslang.so.2 /lib/x86_64-linux-gnu/libslang.so.2 libsigsegv.so.2 /usr/lib/x86_64-linux-gnu/libsigsegv.so.2 libsepol.so.1 /lib/x86_64-linux-gnu/libsepol.so.1 libsensors.so.4 /usr/lib/x86_64-linux-gnu/libsensors.so.4 libsemanage.so.1 /usr/lib/x86_64-linux-gnu/libsemanage.so.1 libselinux.so.1 /lib/x86_64-linux-gnu/libselinux.so.1 libseccomp.so.2 /lib/x86_64-linux-gnu/libseccomp.so.2 libsasl2.so.2 /usr/lib/x86_64-linux-gnu/libsasl2.so.2 librtmp.so.1 /usr/lib/x86_64-linux-gnu/librtmp.so.1 librt.so.1 /lib/x86_64-linux-gnu/librt.so.1 libroken.so.18 /usr/lib/x86_64-linux-gnu/libroken.so.18 libresolv.so.2 /lib/x86_64-linux-gnu/libresolv.so.2 libreadline.so.7 /lib/x86_64-linux-gnu/libreadline.so.7 libreadline.so.5 /lib/x86_64-linux-gnu/libreadline.so.5 libp11-kit.so.0 /usr/lib/x86_64-linux-gnu/libp11-kit.so.0 libpython3.6m.so.1.0 /usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0 libpulse.so.0 /usr/lib/x86_64-linux-gnu/libpulse.so.0 libpulse-simple.so.0 /usr/lib/x86_64-linux-gnu/libpulse-simple.so.0 libpthread.so.0 /lib/x86_64-linux-gnu/libpthread.so.0 libpsl.so.5 /usr/lib/x86_64-linux-gnu/libpsl.so.5 libprocps.so.6 /lib/x86_64-linux-gnu/libprocps.so.6 libpopt.so.0 /usr/lib/x86_64-linux-gnu/libpopt.so.0 libpolkit-gobject-1.so.0 /usr/lib/x86_64-linux-gnu/libpolkit-gobject-1.so.0 libpolkit-backend-1.so.0 /usr/lib/x86_64-linux-gnu/libpolkit-backend-1.so.0 libpolkit-agent-1.so.0 /usr/lib/x86_64-linux-gnu/libpolkit-agent-1.so.0 libpng16.so.16 /usr/lib/x86_64-linux-gnu/libpng16.so.16 libply.so.4 /lib/x86_64-linux-gnu/libply.so.4 libply-splash-graphics.so.4 /lib/x86_64-linux-gnu/libply-splash-graphics.so.4 libply-splash-core.so.4 /lib/x86_64-linux-gnu/libply-splash-core.so.4 libply-boot-client.so.4 /lib/x86_64-linux-gnu/libply-boot-client.so.4 libpipeline.so.1 /usr/lib/x86_64-linux-gnu/libpipeline.so.1 libperl.so.5.26 /usr/lib/x86_64-linux-gnu/libperl.so.5.26 libpcreposix.so.3 /usr/lib/x86_64-linux-gnu/libpcreposix.so.3 libpcre.so.3 /lib/x86_64-linux-gnu/libpcre.so.3 libpcprofile.so /lib/x86_64-linux-gnu/libpcprofile.so libpciaccess.so.0 /usr/lib/x86_64-linux-gnu/libpciaccess.so.0 libpci.so.3 /lib/x86_64-linux-gnu/libpci.so.3 libpcap.so.0.8 /usr/lib/x86_64-linux-gnu/libpcap.so.0.8 libparted.so.2 /lib/x86_64-linux-gnu/libparted.so.2 libpanelw.so.5 /usr/lib/x86_64-linux-gnu/libpanelw.so.5 libpanel.so.5 /usr/lib/x86_64-linux-gnu/libpanel.so.5 libpamc.so.0 /lib/x86_64-linux-gnu/libpamc.so.0 libpam_misc.so.0 /lib/x86_64-linux-gnu/libpam_misc.so.0 libpam.so.0 /lib/x86_64-linux-gnu/libpam.so.0 libogg.so.0 /usr/lib/x86_64-linux-gnu/libogg.so.0 libnuma.so.1 /usr/lib/x86_64-linux-gnu/libnuma.so.1 libntfs-3g.so.88 /lib/x86_64-linux-gnu/libntfs-3g.so.88 libnss_systemd.so.2 /lib/x86_64-linux-gnu/libnss_systemd.so.2 libnss_nisplus.so.2 /lib/x86_64-linux-gnu/libnss_nisplus.so.2 libnss_nis.so.2 /lib/x86_64-linux-gnu/libnss_nis.so.2 libnss_hesiod.so.2 /lib/x86_64-linux-gnu/libnss_hesiod.so.2 libnss_files.so.2 /lib/x86_64-linux-gnu/libnss_files.so.2 libnss_dns.so.2 /lib/x86_64-linux-gnu/libnss_dns.so.2 libnss_compat.so.2 /lib/x86_64-linux-gnu/libnss_compat.so.2 libnsl.so.1 /lib/x86_64-linux-gnu/libnsl.so.1 libnpth.so.0 /usr/lib/x86_64-linux-gnu/libnpth.so.0 libnih.so.1 /lib/x86_64-linux-gnu/libnih.so.1 libnghttp2.so.14 /usr/lib/x86_64-linux-gnu/libnghttp2.so.14 libnfnetlink.so.0 /usr/lib/x86_64-linux-gnu/libnfnetlink.so.0 libnewt.so.0.52 /lib/x86_64-linux-gnu/libnewt.so.0.52 libnettle.so.6 /usr/lib/x86_64-linux-gnu/libnettle.so.6 libnetplan.so.0.0 /usr/lib/x86_64-linux-gnu/libnetplan.so.0.0 libnetfilter_conntrack.so.3 /usr/lib/x86_64-linux-gnu/libnetfilter_conntrack.so.3 libncursesw.so.5 /lib/x86_64-linux-gnu/libncursesw.so.5 libncurses.so.5 /lib/x86_64-linux-gnu/libncurses.so.5 libmvec.so.1 /lib/x86_64-linux-gnu/libmvec.so.1 libmspack.so.0 /usr/lib/x86_64-linux-gnu/libmspack.so.0 libmpfr.so.6 /usr/lib/x86_64-linux-gnu/libmpfr.so.6 libmpdec.so.2 /usr/lib/x86_64-linux-gnu/libmpdec.so.2 libmount.so.1 /lib/x86_64-linux-gnu/libmount.so.1 libmnl.so.0 /lib/x86_64-linux-gnu/libmnl.so.0 libmenuw.so.5 /usr/lib/x86_64-linux-gnu/libmenuw.so.5 libmenu.so.5 /usr/lib/x86_64-linux-gnu/libmenu.so.5 libmemusage.so /lib/x86_64-linux-gnu/libmemusage.so libmagic.so.1 /usr/lib/x86_64-linux-gnu/libmagic.so.1 libm.so.6 /lib/x86_64-linux-gnu/libm.so.6 liblz4.so.1 /usr/lib/x86_64-linux-gnu/liblz4.so.1 liblzo2.so.2 /lib/x86_64-linux-gnu/liblzo2.so.2 liblzma.so.5 /lib/x86_64-linux-gnu/liblzma.so.5 liblxc.so.1 /usr/lib/x86_64-linux-gnu/liblxc.so.1 liblwres.so.160 /usr/lib/x86_64-linux-gnu/liblwres.so.160 liblvm2cmd.so.2.02 /lib/x86_64-linux-gnu/liblvm2cmd.so.2.02 liblvm2app.so.2.2 /lib/x86_64-linux-gnu/liblvm2app.so.2.2 libldap_r-2.4.so.2 /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2 liblber-2.4.so.2 /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2 libk5crypto.so.3 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3 libksba.so.8 /usr/lib/x86_64-linux-gnu/libksba.so.8 libkrb5support.so.0 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0 libkrb5.so.26 /usr/lib/x86_64-linux-gnu/libkrb5.so.26 libkrb5.so.3 /usr/lib/x86_64-linux-gnu/libkrb5.so.3 libkmod.so.2 /lib/x86_64-linux-gnu/libkmod.so.2 libkeyutils.so.1 /lib/x86_64-linux-gnu/libkeyutils.so.1 libjson-c.so.3 /lib/x86_64-linux-gnu/libjson-c.so.3 libisns.so.0 /usr/lib/x86_64-linux-gnu/libisns.so.0 libisns-nocrypto.so.0 /lib/x86_64-linux-gnu/libisns-nocrypto.so.0 libisccfg.so.160 /usr/lib/x86_64-linux-gnu/libisccfg.so.160 libisccc.so.160 /usr/lib/x86_64-linux-gnu/libisccc.so.160 libisc.so.169 /usr/lib/x86_64-linux-gnu/libisc.so.169 libisc-pkcs11.so.169 /usr/lib/x86_64-linux-gnu/libisc-pkcs11.so.169 libisc-export.so.169 /lib/x86_64-linux-gnu/libisc-export.so.169 libirs.so.160 /usr/lib/x86_64-linux-gnu/libirs.so.160 libip6tc.so.0 /usr/lib/x86_64-linux-gnu/libip6tc.so.0 libip4tc.so.0 /usr/lib/x86_64-linux-gnu/libip4tc.so.0 libiptc.so.0 /usr/lib/x86_64-linux-gnu/libiptc.so.0 libidn2.so.0 /usr/lib/x86_64-linux-gnu/libidn2.so.0 libidn.so.11 /lib/x86_64-linux-gnu/libidn.so.11 libicuuc.so.60 /usr/lib/x86_64-linux-gnu/libicuuc.so.60 libicutu.so.60 /usr/lib/x86_64-linux-gnu/libicutu.so.60 libicutest.so.60 /usr/lib/x86_64-linux-gnu/libicutest.so.60 libicui18n.so.60 /usr/lib/x86_64-linux-gnu/libicui18n.so.60 libicuio.so.60 /usr/lib/x86_64-linux-gnu/libicuio.so.60 libicudata.so.60 /usr/lib/x86_64-linux-gnu/libicudata.so.60 libhx509.so.5 /usr/lib/x86_64-linux-gnu/libhx509.so.5 libhogweed.so.4 /usr/lib/x86_64-linux-gnu/libhogweed.so.4 libhistory.so.7 /lib/x86_64-linux-gnu/libhistory.so.7 libhistory.so.5 /lib/x86_64-linux-gnu/libhistory.so.5 libhgfs.so.0 /usr/lib/libhgfs.so.0 libheimntlm.so.0 /usr/lib/x86_64-linux-gnu/libheimntlm.so.0 libheimbase.so.1 /usr/lib/x86_64-linux-gnu/libheimbase.so.1 libhcrypto.so.4 /usr/lib/x86_64-linux-gnu/libhcrypto.so.4 libhandle.so.1 /lib/libhandle.so.1 libguestlib.so.0 /usr/lib/libguestlib.so.0 libgthread-2.0.so.0 /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0 libgssapi_krb5.so.2 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2 libgssapi.so.3 /usr/lib/x86_64-linux-gnu/libgssapi.so.3 libgpm.so.2 /usr/lib/x86_64-linux-gnu/libgpm.so.2 libgpg-error.so.0 /lib/x86_64-linux-gnu/libgpg-error.so.0 libgobject-2.0.so.0 /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0 libgnutls.so.30 /usr/lib/x86_64-linux-gnu/libgnutls.so.30 libgmp.so.10 /usr/lib/x86_64-linux-gnu/libgmp.so.10 libgmodule-2.0.so.0 /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0 libglib-2.0.so.0 /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0 libglapi.so.0 /usr/lib/x86_64-linux-gnu/libglapi.so.0 libgirepository-1.0.so.1 /usr/lib/x86_64-linux-gnu/libgirepository-1.0.so.1 libgio-2.0.so.0 /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0 libgdbm_compat.so.4 /usr/lib/x86_64-linux-gnu/libgdbm_compat.so.4 libgdbm.so.5 /usr/lib/x86_64-linux-gnu/libgdbm.so.5 libgcrypt.so.20 /lib/x86_64-linux-gnu/libgcrypt.so.20 libgcc_s.so.1 /lib/x86_64-linux-gnu/libgcc_s.so.1 libfuse.so.2 /lib/x86_64-linux-gnu/libfuse.so.2 libfribidi.so.0 /usr/lib/x86_64-linux-gnu/libfribidi.so.0 libfreetype.so.6 /usr/lib/x86_64-linux-gnu/libfreetype.so.6 libformw.so.5 /usr/lib/x86_64-linux-gnu/libformw.so.5 libform.so.5 /usr/lib/x86_64-linux-gnu/libform.so.5 libfontenc.so.1 /usr/lib/x86_64-linux-gnu/libfontenc.so.1 libfontconfig.so.1 /usr/lib/x86_64-linux-gnu/libfontconfig.so.1 libffi.so.6 /usr/lib/x86_64-linux-gnu/libffi.so.6 libfdisk.so.1 /lib/x86_64-linux-gnu/libfdisk.so.1 libfastjson.so.4 /usr/lib/x86_64-linux-gnu/libfastjson.so.4 libe2p.so.2 /lib/x86_64-linux-gnu/libe2p.so.2 libext2fs.so.2 /lib/x86_64-linux-gnu/libext2fs.so.2 libexslt.so.0 /usr/lib/x86_64-linux-gnu/libexslt.so.0 libexpatw.so.1 /usr/lib/x86_64-linux-gnu/libexpatw.so.1 libexpat.so.1 /lib/x86_64-linux-gnu/libexpat.so.1 libevent-2.1.so.6 /usr/lib/x86_64-linux-gnu/libevent-2.1.so.6 libestr.so.0 /usr/lib/x86_64-linux-gnu/libestr.so.0 libelf.so.1 /usr/lib/x86_64-linux-gnu/libelf.so.1 libedit.so.2 /usr/lib/x86_64-linux-gnu/libedit.so.2 libeatmydata.so.1 /usr/lib/x86_64-linux-gnu/libeatmydata.so.1 libeatmydata.so /usr/lib/x86_64-linux-gnu/libeatmydata.so libdumbnet.so.1 /usr/lib/x86_64-linux-gnu/libdumbnet.so.1 libdrm_radeon.so.1 /usr/lib/x86_64-linux-gnu/libdrm_radeon.so.1 libdrm_nouveau.so.2 /usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2 libdrm_intel.so.1 /usr/lib/x86_64-linux-gnu/libdrm_intel.so.1 libdrm_amdgpu.so.1 /usr/lib/x86_64-linux-gnu/libdrm_amdgpu.so.1 libdrm.so.2 /usr/lib/x86_64-linux-gnu/libdrm.so.2 libdns.so.1100 /usr/lib/x86_64-linux-gnu/libdns.so.1100 libdns-pkcs11.so.1100 /usr/lib/x86_64-linux-gnu/libdns-pkcs11.so.1100 libdns-export.so.1100 /lib/x86_64-linux-gnu/libdns-export.so.1100 libdl.so.2 /lib/x86_64-linux-gnu/libdl.so.2 libdevmapper.so.1.02.1 /lib/x86_64-linux-gnu/libdevmapper.so.1.02.1 libdevmapper-event.so.1.02.1 /lib/x86_64-linux-gnu/libdevmapper-event.so.1.02.1 libdevmapper-event-lvm2thin.so /lib/x86_64-linux-gnu/libdevmapper-event-lvm2thin.so libdevmapper-event-lvm2snapshot.so /lib/x86_64-linux-gnu/libdevmapper-event-lvm2snapshot.so libdevmapper-event-lvm2raid.so /lib/x86_64-linux-gnu/libdevmapper-event-lvm2raid.so libdevmapper-event-lvm2mirror.so /lib/x86_64-linux-gnu/libdevmapper-event-lvm2mirror.so libdevmapper-event-lvm2.so.2.02 /lib/x86_64-linux-gnu/libdevmapper-event-lvm2.so.2.02 libdebconfclient.so.0 /usr/lib/x86_64-linux-gnu/libdebconfclient.so.0 libdbus-1.so.3 /lib/x86_64-linux-gnu/libdbus-1.so.3 libdb-5.3.so /usr/lib/x86_64-linux-gnu/libdb-5.3.so libcurl.so.4 /usr/lib/x86_64-linux-gnu/libcurl.so.4 libcurl-gnutls.so.4 /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4 libcryptsetup.so.12 /lib/x86_64-linux-gnu/libcryptsetup.so.12 libcrypto.so.1.1 /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1 libcrypto.so.1.0.0 /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 libcrypt.so.1 /lib/x86_64-linux-gnu/libcrypt.so.1 libcom_err.so.2 /lib/x86_64-linux-gnu/libcom_err.so.2 libcidn.so.1 /lib/x86_64-linux-gnu/libcidn.so.1 libcap.so.2 /lib/x86_64-linux-gnu/libcap.so.2 libcap-ng.so.0 /lib/x86_64-linux-gnu/libcap-ng.so.0 libc.so.6 /lib/x86_64-linux-gnu/libc.so.6 libbz2.so.1.0 /lib/x86_64-linux-gnu/libbz2.so.1.0 libbtrfs.so.0 /usr/lib/x86_64-linux-gnu/libbtrfs.so.0 libbtrfs.so /usr/lib/x86_64-linux-gnu/libbtrfs.so libbsd.so.0 /lib/x86_64-linux-gnu/libbsd.so.0 libblkid.so.1 /lib/x86_64-linux-gnu/libblkid.so.1 libbind9.so.160 /usr/lib/x86_64-linux-gnu/libbind9.so.160 libaudit.so.1 /lib/x86_64-linux-gnu/libaudit.so.1 libattr.so.1 /lib/x86_64-linux-gnu/libattr.so.1 libatm.so.1 /lib/x86_64-linux-gnu/libatm.so.1 libasyncns.so.0 /usr/lib/x86_64-linux-gnu/libasyncns.so.0 libassuan.so.0 /usr/lib/x86_64-linux-gnu/libassuan.so.0 libasn1.so.8 /usr/lib/x86_64-linux-gnu/libasn1.so.8 libargon2.so.0 /usr/lib/x86_64-linux-gnu/libargon2.so.0 libapt-private.so.0.0 /usr/lib/x86_64-linux-gnu/libapt-private.so.0.0 libapt-pkg.so.5.0 /usr/lib/x86_64-linux-gnu/libapt-pkg.so.5.0 libapt-inst.so.2.0 /usr/lib/x86_64-linux-gnu/libapt-inst.so.2.0 libapparmor.so.1 /lib/x86_64-linux-gnu/libapparmor.so.1 libanl.so.1 /lib/x86_64-linux-gnu/libanl.so.1 libacl.so.1 /lib/x86_64-linux-gnu/libacl.so.1 libaccountsservice.so.0 /usr/lib/x86_64-linux-gnu/libaccountsservice.so.0 libX11.so.6 /usr/lib/x86_64-linux-gnu/libX11.so.6 libX11-xcb.so.1 /usr/lib/x86_64-linux-gnu/libX11-xcb.so.1 libXxf86vm.so.1 /usr/lib/x86_64-linux-gnu/libXxf86vm.so.1 libXxf86dga.so.1 /usr/lib/x86_64-linux-gnu/libXxf86dga.so.1 libXv.so.1 /usr/lib/x86_64-linux-gnu/libXv.so.1 libXtst.so.6 /usr/lib/x86_64-linux-gnu/libXtst.so.6 libXt.so.6 /usr/lib/x86_64-linux-gnu/libXt.so.6 libXrender.so.1 /usr/lib/x86_64-linux-gnu/libXrender.so.1 libXrandr.so.2 /usr/lib/x86_64-linux-gnu/libXrandr.so.2 libXpm.so.4 /usr/lib/x86_64-linux-gnu/libXpm.so.4 libXmuu.so.1 /usr/lib/x86_64-linux-gnu/libXmuu.so.1 libXmu.so.6 /usr/lib/x86_64-linux-gnu/libXmu.so.6 libXinerama.so.1 /usr/lib/x86_64-linux-gnu/libXinerama.so.1 libXi.so.6 /usr/lib/x86_64-linux-gnu/libXi.so.6 libXft.so.2 /usr/lib/x86_64-linux-gnu/libXft.so.2 libXfixes.so.3 /usr/lib/x86_64-linux-gnu/libXfixes.so.3 libXext.so.6 /usr/lib/x86_64-linux-gnu/libXext.so.6 libXdmcp.so.6 /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 libXdamage.so.1 /usr/lib/x86_64-linux-gnu/libXdamage.so.1 libXcomposite.so.1 /usr/lib/x86_64-linux-gnu/libXcomposite.so.1 libXaw.so.7 /usr/lib/x86_64-linux-gnu/libXaw.so.7 libXau.so.6 /usr/lib/x86_64-linux-gnu/libXau.so.6 libSegFault.so /lib/x86_64-linux-gnu/libSegFault.so libSM.so.6 /usr/lib/x86_64-linux-gnu/libSM.so.6 libLLVM-10.so.1 /usr/lib/x86_64-linux-gnu/libLLVM-10.so.1 libLLVM-10.so /usr/lib/x86_64-linux-gnu/libLLVM-10.so libICE.so.6 /usr/lib/x86_64-linux-gnu/libICE.so.6 libGeoIP.so.1 /usr/lib/x86_64-linux-gnu/libGeoIP.so.1 libGLdispatch.so.0 /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 libGLX_mesa.so.0 /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0 libGLX.so.0 /usr/lib/x86_64-linux-gnu/libGLX.so.0 libGL.so.1 /usr/lib/x86_64-linux-gnu/libGL.so.1 libFLAC.so.8 /usr/lib/x86_64-linux-gnu/libFLAC.so.8 libDeployPkg.so.0 /usr/lib/libDeployPkg.so.0 libBrokenLocale.so.1 /lib/x86_64-linux-gnu/libBrokenLocale.so.1 ld-linux-x86-64.so.2 /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 ]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ 
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ cat /etc/ld.so.cache ls -l /etc/ | sort -nk5
+-r--r--r-- 1 root root          0 Aug 21 17:25 machine-id
+-rw-r--r-- 1 root root          0 Aug 21 17:25 popularity-contest.conf
+total 317
+-rw-r--r-- 1 root root         11 Jun 25  2017 debian_version
+-rw-r--r-- 1 root root         16 Jan 21 09:22 hostname
+-rw-r--r-- 1 root root         19 Aug  5 08:14 issue.net
+-rw-r--r-- 1 root root         19 Jan 21 09:22 timezone
+lrwxrwxrwx 1 root root         19 Aug 21 17:22 mtab -> ../proc/self/mounts
+lrwxrwxrwx 1 root root         21 Aug  5 08:14 os-release -> ../usr/lib/os-release
+lrwxrwxrwx 1 root root         23 Aug 21 17:21 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r-- 1 root root         26 Aug  5 08:14 issue
+lrwxrwxrwx 1 root root         29 Jan 20 09:50 resolv.conf -> ../run/resolvconf/resolv.conf
+-rw-r--r-- 1 root root         34 Jan 27  2016 ld.so.conf
+-rw-r--r-- 1 root root         35 Aug 21 17:25 ec2_version
+lrwxrwxrwx 1 root root         38 Jan 21 09:22 localtime -> /usr/share/zoneinfo/Atlantic/Reykjavik
+-rw-r--r-- 1 root root         43 Aug 21 17:25 fstab
+-rw-r--r-- 1 root root         45 Apr  2  2018 bash_completion
+-rw-r--r-- 1 root root         54 Aug 21 17:23 crypttab
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subgid-
+-rw-r--r-- 1 root root         78 Jan 20 14:46 subuid-
+-rw-r--r-- 1 root root         91 Apr  9  2018 networks
+-rw-r--r-- 1 root root         92 Apr  9  2018 host.conf
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subgid
+-rw-r--r-- 1 root root         95 Jan 20 14:49 subuid
+-rw-r--r-- 1 root root         96 Aug 21 17:21 environment
+-rw-r--r-- 1 root root        103 Aug 21 17:24 shells
+-rw-r--r-- 1 root root        105 Aug  5 08:11 lsb-release
+-rw-r--r-- 1 root root        110 Aug 21 17:23 kernel-img.conf
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic
+-rw-r--r-- 1 root root        111 Feb 13  2018 magic.mime
+-rw-r--r-- 1 root root        112 Aug 21 17:25 overlayroot.local.conf
+-rw-r--r-- 1 root root        138 Mar 24  2020 sos.conf
+-rw-r----- 1 root daemon      144 Feb 20  2018 at.deny
+-rw-r--r-- 1 root root        191 Feb  7  2018 libaudit.conf
+-rw-r--r-- 1 root root        195 Aug 21 17:21 modules
+-rw-r--r-- 1 root root        267 Apr  9  2018 legal
+-rwxr-xr-x 1 root root        268 Jul 21  2017 rmt
+-rw-r--r-- 1 root root        280 Jun 20  2014 fuse.conf
+-rw-r--r-- 1 root root        367 Jan 27  2016 bindresvport.blacklist
+-rw-r--r-- 1 root root        403 Mar  1  2018 updatedb.conf
+-rw-r--r-- 1 root root        411 Aug 21 17:24 hosts.allow
+-rw-r--r-- 1 root root        427 Jan 21 09:22 hosts
+-rw-r--r-- 1 root root        449 Jul 15  2016 mailcap.order
+-rw-r--r-- 1 root root        477 Mar 16  2018 zsh_command_not_found
+drwxr-xr-x 1 root root        512 Apr 20  2018 binfmt.d
+drwxr-xr-x 1 root root        512 Apr 23  2018 netplan
+drwxr-xr-x 1 root root        512 Aug 21 17:19 systemd
+drwxr-xr-x 1 root root        512 Aug 21 17:20 opt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 ca-certificates
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.hourly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 cron.monthly
+drwxr-xr-x 1 root root        512 Aug 21 17:21 dbus-1
+drwxr-xr-x 1 root root        512 Aug 21 17:21 kernel
+drwxr-xr-x 1 root root        512 Aug 21 17:21 newt
+drwxr-xr-x 1 root root        512 Aug 21 17:21 python3
+drwxr-xr-x 1 root root        512 Aug 21 17:21 selinux
+drwxr-xr-x 1 root root        512 Aug 21 17:21 xdg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 apt
+drwxr-xr-x 1 root root        512 Aug 21 17:22 dpkg
+drwxr-xr-x 1 root root        512 Aug 21 17:22 ld.so.conf.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 modules-load.d
+drwxr-xr-x 1 root root        512 Aug 21 17:22 security
+drwxr-xr-x 1 root root        512 Aug 21 17:22 skel
+drwxr-xr-x 1 root root        512 Aug 21 17:22 terminfo
+drwxr-xr-x 1 root root        512 Aug 21 17:23 acpi
+drwxr-xr-x 1 root root        512 Aug 21 17:23 apm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 console-setup
+drwxr-xr-x 1 root root        512 Aug 21 17:23 depmod.d
+drwxr-xr-x 1 root root        512 Aug 21 17:23 dhcp
+drwxr-xr-x 1 root root        512 Aug 21 17:23 gss
+drwxr-xr-x 1 root root        512 Aug 21 17:23 initramfs-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:23 iproute2
+drwxr-xr-x 1 root root        512 Aug 21 17:23 network
+drwxr-xr-x 1 root root        512 Aug 21 17:23 networkd-dispatcher
+drwxr-xr-x 1 root root        512 Aug 21 17:23 perl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 pm
+drwxr-xr-x 1 root root        512 Aug 21 17:23 python3.6
+drwxr-xr-x 1 root root        512 Aug 21 17:23 ssl
+drwxr-xr-x 1 root root        512 Aug 21 17:23 udev
+drwxr-xr-x 1 root root        512 Aug 21 17:23 vim
+drwxr-xr-x 1 root root        512 Aug 21 17:24 NetworkManager
+drwxr-xr-x 1 root root        512 Aug 21 17:24 apparmor
+drwxr-xr-x 1 root root        512 Aug 21 17:24 byobu
+drwxr-xr-x 1 root root        512 Aug 21 17:24 calendar
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cron.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 cryptsetup-initramfs
+drwxr-xr-x 1 root root        512 Aug 21 17:24 groff
+drwxr-xr-x 1 root root        512 Aug 21 17:24 iscsi
+drwxr-xr-x 1 root root        512 Aug 21 17:24 ldap
+drwxr-xr-x 1 root root        512 Aug 21 17:24 logcheck
+drwxr-xr-x 1 root root        512 Aug 21 17:24 mdadm
+drwxr-xr-x 1 root root        512 Aug 21 17:24 modprobe.d
+drwxr-xr-x 1 root root        512 Aug 21 17:24 polkit-1
+drwxr-xr-x 1 root root        512 Aug 21 17:24 tmpfiles.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apparmor.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 apport
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cloud
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.daily
+drwxr-xr-x 1 root root        512 Aug 21 17:25 cron.weekly
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 dnsmasq.d-available
+drwxr-xr-x 1 root root        512 Aug 21 17:25 logrotate.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 lvm
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pam.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 pollinate
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc0.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc1.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rc6.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 rsyslog.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ssh
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sudoers.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 sysctl.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 ufw
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-manager
+drwxr-xr-x 1 root root        512 Aug 21 17:25 update-motd.d
+drwxr-xr-x 1 root root        512 Aug 21 17:25 vmware-tools
+drwxr-xr-x 1 root root        512 Aug 21 17:31 bash_completion.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 default
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc2.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc3.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc4.d
+drwxr-xr-x 1 root root        512 Aug 21 17:31 rc5.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 X11
+drwxr-xr-x 1 root root        512 Aug 21 17:52 alternatives
+drwxr-xr-x 1 root root        512 Aug 21 17:52 fonts
+drwxr-xr-x 1 root root        512 Aug 21 17:52 init.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 profile.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 pulse
+drwxr-xr-x 1 root root        512 Aug 21 17:52 rcS.d
+drwxr-xr-x 1 root root        512 Aug 21 17:52 sensors.d
+drwxr-xr-x 1 root root        512 May 24  2019 update-notifier
+drwxrwxr-x 1 root landscape   512 Feb 20  2020 landscape
+-rw-r--r-- 1 root root        513 Aug 21 17:21 nsswitch.conf
+-rw-r--r-- 1 root root        552 Apr  4  2018 pam.conf
+-rw-r--r-- 1 root root        581 Apr  9  2018 profile
+-rw-r--r-- 1 root root        604 Aug 13  2017 deluser.conf
+-rw-r----- 1 root shadow      687 Jan 20 14:46 gshadow-
+-rw-r----- 1 root shadow      695 Jan 20 14:49 gshadow
+-rw-r--r-- 1 root root        703 Aug 21  2017 logrotate.conf
+-rw-r--r-- 1 root root        711 Aug 21 17:24 hosts.deny
+-rw-r--r-- 1 root root        722 Nov 16  2017 crontab
+-r--r----- 1 root root        755 Jan 18  2018 sudoers
+-rw-r--r-- 1 root root        809 Jan 20 14:46 group-
+-rw-r--r-- 1 root root        812 Mar 24  2018 mke2fs.conf
+-rw-r--r-- 1 root root        821 Jan 20 14:49 group
+-rw-r--r-- 1 root root        887 Dec 26  2016 rpc
+-rw-r----- 1 root shadow      960 Jan 20 14:46 shadow-
+-rw-r----- 1 root shadow     1179 Jan 20 14:51 shadow
+-rw-r--r-- 1 root root       1260 Feb 26  2018 ucf.conf
+-rw-r--r-- 1 root root       1317 Jun 28  2018 ethertypes
+-rw-r--r-- 1 root root       1358 Jan 30  2018 rsyslog.conf
+-rw-r--r-- 1 root root       1605 Jan 20 14:46 passwd-
+-rw-r--r-- 1 root root       1640 Jan 20 14:49 passwd
+-rw-r--r-- 1 root root       1748 May 15  2017 inputrc
+-rw-r--r-- 1 root root       2319 Apr  4  2018 bash.bashrc
+-rw-r--r-- 1 root root       2584 Feb  1  2018 gai.conf
+-rw-r--r-- 1 root root       2683 Jan 17  2018 sysctl.conf
+-rw-r--r-- 1 root root       2932 Dec 26  2016 protocols
+-rw-r--r-- 1 root root       2969 Feb 28  2018 debconf.conf
+-rw-r--r-- 1 root root       2995 Apr 16  2018 locale.alias
+-rw-r--r-- 1 root root       3028 Aug 21 17:21 adduser.conf
+-rw-r--r-- 1 root root       3623 Aug 21 17:25 mailcap
+-rw-r--r-- 1 root root       3663 Jun  9  2015 screenrc
+-rw-r--r-- 1 root root       4141 Jan 25  2018 securetty
+-rw-r--r-- 1 root root       4861 Feb 22  2018 hdparm.conf
+-rw-r--r-- 1 root root       4942 Apr  8  2019 wgetrc
+-rw-r--r-- 1 root root       5174 Aug  4  2018 manpath.config
+-rw-r--r-- 1 root root       5898 Aug 21 17:21 ca-certificates.conf.dpkg-old
+-rw-r--r-- 1 root root       5986 Aug 21 17:23 ca-certificates.conf
+-rw-r--r-- 1 root root       6920 Sep 20  2018 overlayroot.conf
+-rw-r--r-- 1 root root       9048 Feb 13  2018 nanorc
+-rw-r--r-- 1 root root       9395 Aug 21 17:25 locale.gen
+-rw-r--r-- 1 root root      10368 Apr  5  2017 sensors3.conf
+-rw-r--r-- 1 root root      10550 Jan 25  2018 login.defs
+-rw-r--r-- 1 root root      14867 Oct 13  2016 ltrace.conf
+-rw-r--r-- 1 root root      19183 Dec 26  2016 services
+-rw-r--r-- 1 root root      24301 Jul 15  2016 mime.types
+-rw-r--r-- 1 root root      27138 Aug 21 17:52 ld.so.cache
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls -l /etc/ | sort -nk5[K[K[K[K[K[K[K[K[Kgrep s[K'sec*'
+-rw-r--r-- 1 root root       3028 Aug 21 17:21 addu[01;31m[Kse[m[Kr.conf
+drwxr-xr-x 1 root root        512 Aug 21 17:23 console-[01;31m[Kse[m[Ktup
+drwxr-xr-x 1 root root        512 Aug 21 17:24 crypt[01;31m[Kse[m[Ktup-initramfs
+-rw-r--r-- 1 root root        604 Aug 13  2017 delu[01;31m[Kse[m[Kr.conf
+-rw-r--r-- 1 root root        280 Jun 20  2014 fu[01;31m[Kse[m[K.conf
+-rw-r--r-- 1 root root        105 Aug  5 08:11 lsb-relea[01;31m[Kse[m[K
+lrwxrwxrwx 1 root root         19 Aug 21 17:22 mtab -> ../proc/[01;31m[Kse[m[Klf/mounts
+lrwxrwxrwx 1 root root         21 Aug  5 08:14 os-relea[01;31m[Kse[m[K -> ../usr/lib/os-relea[01;31m[Kse[m[K
+drwxr-xr-x 1 root root        512 Aug 21 17:52 pul[01;31m[Kse[m[K
+-rw-r--r-- 1 root root       4141 Jan 25  2018 [01;31m[Ksec[m[Kuretty
+drwxr-xr-x 1 root root        512 Aug 21 17:22 [01;31m[Ksec[m[Kurity
+drwxr-xr-x 1 root root        512 Aug 21 17:21 [01;31m[Kse[m[Klinux
+drwxr-xr-x 1 root root        512 Aug 21 17:52 [01;31m[Kse[m[Knsors.d
+-rw-r--r-- 1 root root      10368 Apr  5  2017 [01;31m[Kse[m[Knsors3.conf
+-rw-r--r-- 1 root root      19183 Dec 26  2016 [01;31m[Kse[m[Krvices
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ls -l /etc/ | grep 'sec*'[2Psort -nk5[2Pcat /etc/ld.so.cache [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P e r [1P [1P s e r vices 
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from http://www.iana.org/assignments/port-numbers and other
+# sources like http://www.freebsd.org/cgi/cvsweb.cgi/src/etc/services .
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+tcpmux		1/tcp				# TCP port service multiplexer
+echo		7/tcp
+echo		7/udp
+discard		9/tcp		sink null
+discard		9/udp		sink null
+systat		11/tcp		users
+daytime		13/tcp
+daytime		13/udp
+netstat		15/tcp
+qotd		17/tcp		quote
+msp		18/tcp				# message send protocol
+msp		18/udp
+chargen		19/tcp		ttytst source
+chargen		19/udp		ttytst source
+ftp-data	20/tcp
+ftp		21/tcp
+fsp		21/udp		fspd
+ssh		22/tcp				# SSH Remote Login Protocol
+telnet		23/tcp
+smtp		25/tcp		mail
+time		37/tcp		timserver
+time		37/udp		timserver
+rlp		39/udp		resource	# resource location
+nameserver	42/tcp		name		# IEN 116
+whois		43/tcp		nicname
+tacacs		49/tcp				# Login Host Protocol (TACACS)
+tacacs		49/udp
+re-mail-ck	50/tcp				# Remote Mail Checking Protocol
+re-mail-ck	50/udp
+domain		53/tcp				# Domain Name Server
+domain		53/udp
+tacacs-ds	65/tcp				# TACACS-Database Service
+tacacs-ds	65/udp
+bootps		67/tcp				# BOOTP server
+bootps		67/udp
+bootpc		68/tcp				# BOOTP client
+bootpc		68/udp
+tftp		69/udp
+gopher		70/tcp				# Internet Gopher
+finger		79/tcp
+http		80/tcp		www		# WorldWideWeb HTTP
+link		87/tcp		ttylink
+kerberos	88/tcp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+kerberos	88/udp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+supdup		95/tcp
+hostnames	101/tcp		hostname	# usually from sri-nic
+iso-tsap	102/tcp		tsap		# part of ISODE
+acr-nema	104/tcp		dicom		# Digital Imag. & Comm. 300
+acr-nema	104/udp		dicom
+csnet-ns	105/tcp		cso-ns		# also used by CSO name server
+csnet-ns	105/udp		cso-ns
+rtelnet		107/tcp				# Remote Telnet
+rtelnet		107/udp
+pop3		110/tcp		pop-3		# POP version 3
+sunrpc		111/tcp		portmapper	# RPC 4.0 portmapper
+sunrpc		111/udp		portmapper
+auth		113/tcp		authentication tap ident
+sftp		115/tcp
+nntp		119/tcp		readnews untp	# USENET News Transfer Protocol
+ntp		123/tcp
+ntp		123/udp				# Network Time Protocol
+pwdgen		129/tcp				# PWDGEN service
+pwdgen		129/udp
+loc-srv		135/tcp		epmap		# Location Service
+loc-srv		135/udp		epmap
+netbios-ns	137/tcp				# NETBIOS Name Service
+netbios-ns	137/udp
+netbios-dgm	138/tcp				# NETBIOS Datagram Service
+netbios-dgm	138/udp
+netbios-ssn	139/tcp				# NETBIOS session service
+netbios-ssn	139/udp
+imap2		143/tcp		imap		# Interim Mail Access P 2 and 4
+snmp		161/tcp				# Simple Net Mgmt Protocol
+snmp		161/udp
+snmp-trap	162/tcp		snmptrap	# Traps for SNMP
+snmp-trap	162/udp		snmptrap
+cmip-man	163/tcp				# ISO mgmt over IP (CMOT)
+cmip-man	163/udp
+cmip-agent	164/tcp
+cmip-agent	164/udp
+mailq		174/tcp			# Mailer transport queue for Zmailer
+mailq		174/udp
+xdmcp		177/tcp				# X Display Mgr. Control Proto
+xdmcp		177/udp
+nextstep	178/tcp		NeXTStep NextStep	# NeXTStep window
+nextstep	178/udp		NeXTStep NextStep	#  server
+bgp		179/tcp				# Border Gateway Protocol
+irc		194/tcp				# Internet Relay Chat
+irc		194/udp
+smux		199/tcp				# SNMP Unix Multiplexer
+smux		199/udp
+at-rtmp		201/tcp				# AppleTalk routing
+at-rtmp		201/udp
+at-nbp		202/tcp				# AppleTalk name binding
+at-nbp		202/udp
+at-echo		204/tcp				# AppleTalk echo
+at-echo		204/udp
+at-zis		206/tcp				# AppleTalk zone information
+at-zis		206/udp
+qmtp		209/tcp				# Quick Mail Transfer Protocol
+qmtp		209/udp
+z3950		210/tcp		wais		# NISO Z39.50 database
+z3950		210/udp		wais
+ipx		213/tcp				# IPX
+ipx		213/udp
+pawserv		345/tcp				# Perf Analysis Workbench
+pawserv		345/udp
+zserv		346/tcp				# Zebra server
+zserv		346/udp
+fatserv		347/tcp				# Fatmen Server
+fatserv		347/udp
+rpc2portmap	369/tcp
+rpc2portmap	369/udp				# Coda portmapper
+codaauth2	370/tcp
+codaauth2	370/udp				# Coda authentication server
+clearcase	371/tcp		Clearcase
+clearcase	371/udp		Clearcase
+ulistserv	372/tcp				# UNIX Listserv
+ulistserv	372/udp
+ldap		389/tcp			# Lightweight Directory Access Protocol
+ldap		389/udp
+imsp		406/tcp			# Interactive Mail Support Protocol
+imsp		406/udp
+svrloc		427/tcp				# Server Location
+svrloc		427/udp
+https		443/tcp				# http protocol over TLS/SSL
+snpp		444/tcp				# Simple Network Paging Protocol
+snpp		444/udp
+microsoft-ds	445/tcp				# Microsoft Naked CIFS
+microsoft-ds	445/udp
+kpasswd		464/tcp
+kpasswd		464/udp
+urd		465/tcp		ssmtp smtps  # URL Rendesvous Directory for SSM
+saft		487/tcp			# Simple Asynchronous File Transfer
+saft		487/udp
+isakmp		500/tcp			# IPsec - Internet Security Association
+isakmp		500/udp			#  and Key Management Protocol
+rtsp		554/tcp			# Real Time Stream Control Protocol
+rtsp		554/udp
+nqs		607/tcp				# Network Queuing system
+nqs		607/udp
+npmp-local	610/tcp		dqs313_qmaster		# npmp-local / DQS
+npmp-local	610/udp		dqs313_qmaster
+npmp-gui	611/tcp		dqs313_execd		# npmp-gui / DQS
+npmp-gui	611/udp		dqs313_execd
+hmmp-ind	612/tcp		dqs313_intercell	# HMMP Indication / DQS
+hmmp-ind	612/udp		dqs313_intercell
+asf-rmcp	623/udp		# ASF Remote Management and Control Protocol
+qmqp		628/tcp
+qmqp		628/udp
+ipp		631/tcp				# Internet Printing Protocol
+ipp		631/udp
+#
+# UNIX specific services
+#
+exec		512/tcp
+biff		512/udp		comsat
+login		513/tcp
+who		513/udp		whod
+shell		514/tcp		cmd		# no passwords used
+syslog		514/udp
+printer		515/tcp		spooler		# line printer spooler
+talk		517/udp
+ntalk		518/udp
+route		520/udp		router routed	# RIP
+timed		525/udp		timeserver
+tempo		526/tcp		newdate
+courier		530/tcp		rpc
+conference	531/tcp		chat
+netnews		532/tcp		readnews
+netwall		533/udp				# for emergency broadcasts
+gdomap		538/tcp				# GNUstep distributed objects
+gdomap		538/udp
+uucp		540/tcp		uucpd		# uucp daemon
+klogin		543/tcp				# Kerberized `rlogin' (v5)
+kshell		544/tcp		krcmd		# Kerberized `rsh' (v5)
+dhcpv6-client	546/tcp
+dhcpv6-client	546/udp
+dhcpv6-server	547/tcp
+dhcpv6-server	547/udp
+afpovertcp	548/tcp				# AFP over TCP
+afpovertcp	548/udp
+idfp		549/tcp
+idfp		549/udp
+remotefs	556/tcp		rfs_server rfs	# Brunhoff remote filesystem
+nntps		563/tcp		snntp		# NNTP over SSL
+submission	587/tcp				# Submission [RFC4409]
+ldaps		636/tcp				# LDAP over SSL
+ldaps		636/udp
+tinc		655/tcp				# tinc control port
+tinc		655/udp
+silc		706/tcp
+silc		706/udp
+kerberos-adm	749/tcp				# Kerberos `kadmin' (v5)
+#
+webster		765/tcp				# Network dictionary
+webster		765/udp
+rsync		873/tcp
+ftps-data	989/tcp				# FTP over SSL (data)
+ftps		990/tcp
+telnets		992/tcp				# Telnet over SSL
+imaps		993/tcp				# IMAP over SSL
+pop3s		995/tcp				# POP-3 over SSL
+#
+# From ``Assigned Numbers'':
+#
+#> The Registered Ports are not controlled by the IANA and on most systems
+#> can be used by ordinary user processes or programs executed by ordinary
+#> users.
+#
+#> Ports are used in the TCP [45,106] to name the ends of logical
+#> connections which carry long term conversations.  For the purpose of
+#> providing services to unknown callers, a service contact port is
+#> defined.  This list specifies the port used by the server process as its
+#> contact port.  While the IANA can not control uses of these ports it
+#> does register or list uses of these ports as a convienence to the
+#> community.
+#
+socks		1080/tcp			# socks proxy server
+socks		1080/udp
+proofd		1093/tcp
+proofd		1093/udp
+rootd		1094/tcp
+rootd		1094/udp
+openvpn		1194/tcp
+openvpn		1194/udp
+rmiregistry	1099/tcp			# Java RMI Registry
+rmiregistry	1099/udp
+kazaa		1214/tcp
+kazaa		1214/udp
+nessus		1241/tcp			# Nessus vulnerability
+nessus		1241/udp			#  assessment scanner
+lotusnote	1352/tcp	lotusnotes	# Lotus Note
+lotusnote	1352/udp	lotusnotes
+ms-sql-s	1433/tcp			# Microsoft SQL Server
+ms-sql-s	1433/udp
+ms-sql-m	1434/tcp			# Microsoft SQL Monitor
+ms-sql-m	1434/udp
+ingreslock	1524/tcp
+ingreslock	1524/udp
+datametrics	1645/tcp	old-radius
+datametrics	1645/udp	old-radius
+sa-msg-port	1646/tcp	old-radacct
+sa-msg-port	1646/udp	old-radacct
+kermit		1649/tcp
+kermit		1649/udp
+groupwise	1677/tcp
+groupwise	1677/udp
+l2f		1701/tcp	l2tp
+l2f		1701/udp	l2tp
+radius		1812/tcp
+radius		1812/udp
+radius-acct	1813/tcp	radacct		# Radius Accounting
+radius-acct	1813/udp	radacct
+msnp		1863/tcp			# MSN Messenger
+msnp		1863/udp
+unix-status	1957/tcp			# remstats unix-status server
+log-server	1958/tcp			# remstats log server
+remoteping	1959/tcp			# remstats remoteping server
+cisco-sccp	2000/tcp			# Cisco SCCP
+cisco-sccp	2000/udp
+search		2010/tcp	ndtp
+pipe-server	2010/tcp	pipe_server
+nfs		2049/tcp			# Network File System
+nfs		2049/udp			# Network File System
+gnunet		2086/tcp
+gnunet		2086/udp
+rtcm-sc104	2101/tcp			# RTCM SC-104 IANA 1/29/99
+rtcm-sc104	2101/udp
+gsigatekeeper	2119/tcp
+gsigatekeeper	2119/udp
+gris		2135/tcp		# Grid Resource Information Server
+gris		2135/udp
+cvspserver	2401/tcp			# CVS client/server operations
+cvspserver	2401/udp
+venus		2430/tcp			# codacon port
+venus		2430/udp			# Venus callback/wbc interface
+venus-se	2431/tcp			# tcp side effects
+venus-se	2431/udp			# udp sftp side effect
+codasrv		2432/tcp			# not used
+codasrv		2432/udp			# server port
+codasrv-se	2433/tcp			# tcp side effects
+codasrv-se	2433/udp			# udp sftp side effect
+mon		2583/tcp			# MON traps
+mon		2583/udp
+dict		2628/tcp			# Dictionary server
+dict		2628/udp
+f5-globalsite	2792/tcp
+f5-globalsite	2792/udp
+gsiftp		2811/tcp
+gsiftp		2811/udp
+gpsd		2947/tcp
+gpsd		2947/udp
+gds-db		3050/tcp	gds_db		# InterBase server
+gds-db		3050/udp	gds_db
+icpv2		3130/tcp	icp		# Internet Cache Protocol
+icpv2		3130/udp	icp
+isns		3205/tcp			# iSNS Server Port
+isns		3205/udp			# iSNS Server Port
+iscsi-target	3260/tcp
+mysql		3306/tcp
+mysql		3306/udp
+nut		3493/tcp			# Network UPS Tools
+nut		3493/udp
+distcc		3632/tcp			# distributed compiler
+distcc		3632/udp
+daap		3689/tcp			# Digital Audio Access Protocol
+daap		3689/udp
+svn		3690/tcp	subversion	# Subversion protocol
+svn		3690/udp	subversion
+suucp		4031/tcp			# UUCP over SSL
+suucp		4031/udp
+sysrqd		4094/tcp			# sysrq daemon
+sysrqd		4094/udp
+sieve		4190/tcp			# ManageSieve Protocol
+epmd		4369/tcp			# Erlang Port Mapper Daemon
+epmd		4369/udp
+remctl		4373/tcp		# Remote Authenticated Command Service
+remctl		4373/udp
+f5-iquery	4353/tcp			# F5 iQuery
+f5-iquery	4353/udp
+ipsec-nat-t	4500/udp			# IPsec NAT-Traversal [RFC3947]
+iax		4569/tcp			# Inter-Asterisk eXchange
+iax		4569/udp
+mtn		4691/tcp			# monotone Netsync Protocol
+mtn		4691/udp
+radmin-port	4899/tcp			# RAdmin Port
+radmin-port	4899/udp
+rfe		5002/udp			# Radio Free Ethernet
+rfe		5002/tcp
+mmcc		5050/tcp	# multimedia conference control tool (Yahoo IM)
+mmcc		5050/udp
+sip		5060/tcp			# Session Initiation Protocol
+sip		5060/udp
+sip-tls		5061/tcp
+sip-tls		5061/udp
+aol		5190/tcp			# AIM
+aol		5190/udp
+xmpp-client	5222/tcp	jabber-client	# Jabber Client Connection
+xmpp-client	5222/udp	jabber-client
+xmpp-server	5269/tcp	jabber-server	# Jabber Server Connection
+xmpp-server	5269/udp	jabber-server
+cfengine	5308/tcp
+cfengine	5308/udp
+mdns		5353/tcp			# Multicast DNS
+mdns		5353/udp
+postgresql	5432/tcp	postgres	# PostgreSQL Database
+postgresql	5432/udp	postgres
+freeciv		5556/tcp	rptp		# Freeciv gameplay
+freeciv		5556/udp
+amqps		5671/tcp			# AMQP protocol over TLS/SSL
+amqp		5672/tcp
+amqp		5672/udp
+amqp		5672/sctp
+ggz		5688/tcp			# GGZ Gaming Zone
+ggz		5688/udp
+x11		6000/tcp	x11-0		# X Window System
+x11		6000/udp	x11-0
+x11-1		6001/tcp
+x11-1		6001/udp
+x11-2		6002/tcp
+x11-2		6002/udp
+x11-3		6003/tcp
+x11-3		6003/udp
+x11-4		6004/tcp
+x11-4		6004/udp
+x11-5		6005/tcp
+x11-5		6005/udp
+x11-6		6006/tcp
+x11-6		6006/udp
+x11-7		6007/tcp
+x11-7		6007/udp
+gnutella-svc	6346/tcp			# gnutella
+gnutella-svc	6346/udp
+gnutella-rtr	6347/tcp			# gnutella
+gnutella-rtr	6347/udp
+sge-qmaster	6444/tcp	sge_qmaster	# Grid Engine Qmaster Service
+sge-qmaster	6444/udp	sge_qmaster
+sge-execd	6445/tcp	sge_execd	# Grid Engine Execution Service
+sge-execd	6445/udp	sge_execd
+mysql-proxy	6446/tcp			# MySQL Proxy
+mysql-proxy	6446/udp
+babel		6696/udp			# Babel Routing Protocol
+ircs-u		6697/tcp		# Internet Relay Chat via TLS/SSL
+afs3-fileserver 7000/tcp	bbs		# file server itself
+afs3-fileserver 7000/udp	bbs
+afs3-callback	7001/tcp			# callbacks to cache managers
+afs3-callback	7001/udp
+afs3-prserver	7002/tcp			# users & groups database
+afs3-prserver	7002/udp
+afs3-vlserver	7003/tcp			# volume location database
+afs3-vlserver	7003/udp
+afs3-kaserver	7004/tcp			# AFS/Kerberos authentication
+afs3-kaserver	7004/udp
+afs3-volser	7005/tcp			# volume managment server
+afs3-volser	7005/udp
+afs3-errors	7006/tcp			# error interpretation service
+afs3-errors	7006/udp
+afs3-bos	7007/tcp			# basic overseer process
+afs3-bos	7007/udp
+afs3-update	7008/tcp			# server-to-server updater
+afs3-update	7008/udp
+afs3-rmtsys	7009/tcp			# remote cache manager service
+afs3-rmtsys	7009/udp
+font-service	7100/tcp	xfs		# X Font Service
+font-service	7100/udp	xfs
+http-alt	8080/tcp	webcache	# WWW caching service
+http-alt	8080/udp
+puppet		8140/tcp			# The Puppet master service
+bacula-dir	9101/tcp			# Bacula Director
+bacula-dir	9101/udp
+bacula-fd	9102/tcp			# Bacula File Daemon
+bacula-fd	9102/udp
+bacula-sd	9103/tcp			# Bacula Storage Daemon
+bacula-sd	9103/udp
+xmms2		9667/tcp	# Cross-platform Music Multiplexing System
+xmms2		9667/udp
+nbd		10809/tcp			# Linux Network Block Device
+zabbix-agent	10050/tcp			# Zabbix Agent
+zabbix-agent	10050/udp
+zabbix-trapper	10051/tcp			# Zabbix Trapper
+zabbix-trapper	10051/udp
+amanda		10080/tcp			# amanda backup services
+amanda		10080/udp
+dicom		11112/tcp
+hkp		11371/tcp			# OpenPGP HTTP Keyserver
+hkp		11371/udp
+bprd		13720/tcp			# VERITAS NetBackup
+bprd		13720/udp
+bpdbm		13721/tcp			# VERITAS NetBackup
+bpdbm		13721/udp
+bpjava-msvc	13722/tcp			# BP Java MSVC Protocol
+bpjava-msvc	13722/udp
+vnetd		13724/tcp			# Veritas Network Utility
+vnetd		13724/udp
+bpcd		13782/tcp			# VERITAS NetBackup
+bpcd		13782/udp
+vopied		13783/tcp			# VERITAS NetBackup
+vopied		13783/udp
+db-lsp		17500/tcp			# Dropbox LanSync Protocol
+dcap		22125/tcp			# dCache Access Protocol
+gsidcap		22128/tcp			# GSI dCache Access Protocol
+wnn6		22273/tcp			# wnn6
+wnn6		22273/udp
+
+#
+# Datagram Delivery Protocol services
+#
+rtmp		1/ddp			# Routing Table Maintenance Protocol
+nbp		2/ddp			# Name Binding Protocol
+echo		4/ddp			# AppleTalk Echo Protocol
+zip		6/ddp			# Zone Information Protocol
+
+#=========================================================================
+# The remaining port numbers are not as allocated by IANA.
+#=========================================================================
+
+# Kerberos (Project Athena/MIT) services
+# Note that these are for Kerberos v4, and are unofficial.  Sites running
+# v4 should uncomment these and comment out the v5 entries above.
+#
+kerberos4	750/udp		kerberos-iv kdc	# Kerberos (server)
+kerberos4	750/tcp		kerberos-iv kdc
+kerberos-master	751/udp		kerberos_master	# Kerberos authentication
+kerberos-master	751/tcp
+passwd-server	752/udp		passwd_server	# Kerberos passwd server
+krb-prop	754/tcp		krb_prop krb5_prop hprop # Kerberos slave propagation
+krbupdate	760/tcp		kreg		# Kerberos registration
+swat		901/tcp				# swat
+kpop		1109/tcp			# Pop with Kerberos
+knetd		2053/tcp			# Kerberos de-multiplexor
+zephyr-srv	2102/udp			# Zephyr server
+zephyr-clt	2103/udp			# Zephyr serv-hm connection
+zephyr-hm	2104/udp			# Zephyr hostmanager
+eklogin		2105/tcp			# Kerberos encrypted rlogin
+# Hmmm. Are we using Kv4 or Kv5 now? Worrying.
+# The following is probably Kerberos v5  --- ajt@debian.org (11/02/2000)
+kx		2111/tcp			# X over Kerberos
+iprop		2121/tcp			# incremental propagation
+#
+# Unofficial but necessary (for NetBSD) services
+#
+supfilesrv	871/tcp				# SUP server
+supfiledbg	1127/tcp			# SUP debugging
+
+#
+# Services added for the Debian GNU/Linux distribution
+#
+linuxconf	98/tcp				# LinuxConf
+poppassd	106/tcp				# Eudora
+poppassd	106/udp
+moira-db	775/tcp		moira_db	# Moira database
+moira-update	777/tcp		moira_update	# Moira update protocol
+moira-ureg	779/udp		moira_ureg	# Moira user registration
+spamd		783/tcp				# spamassassin daemon
+omirr		808/tcp		omirrd		# online mirror
+omirr		808/udp		omirrd
+customs		1001/tcp			# pmake customs server
+customs		1001/udp
+skkserv		1178/tcp			# skk jisho server port
+predict		1210/udp			# predict -- satellite tracking
+rmtcfg		1236/tcp			# Gracilis Packeten remote config server
+wipld		1300/tcp			# Wipl network monitor
+xtel		1313/tcp			# french minitel
+xtelw		1314/tcp			# french minitel
+support		1529/tcp			# GNATS
+cfinger		2003/tcp			# GNU Finger
+frox		2121/tcp			# frox: caching ftp proxy
+ninstall	2150/tcp			# ninstall service
+ninstall	2150/udp
+zebrasrv	2600/tcp			# zebra service
+zebra		2601/tcp			# zebra vty
+ripd		2602/tcp			# ripd vty (zebra)
+ripngd		2603/tcp			# ripngd vty (zebra)
+ospfd		2604/tcp			# ospfd vty (zebra)
+bgpd		2605/tcp			# bgpd vty (zebra)
+ospf6d		2606/tcp			# ospf6d vty (zebra)
+ospfapi		2607/tcp			# OSPF-API
+isisd		2608/tcp			# ISISd vty (zebra)
+afbackup	2988/tcp			# Afbackup system
+afbackup	2988/udp
+afmbackup	2989/tcp			# Afmbackup system
+afmbackup	2989/udp
+xtell		4224/tcp			# xtell server
+fax		4557/tcp			# FAX transmission service (old)
+hylafax		4559/tcp			# HylaFAX client-server protocol (new)
+distmp3		4600/tcp			# distmp3host daemon
+munin		4949/tcp	lrrd		# Munin
+enbd-cstatd	5051/tcp			# ENBD client statd
+enbd-sstatd	5052/tcp			# ENBD server statd
+pcrd		5151/tcp			# PCR-1000 Daemon
+noclog		5354/tcp			# noclogd with TCP (nocol)
+noclog		5354/udp			# noclogd with UDP (nocol)
+hostmon		5355/tcp			# hostmon uses TCP (nocol)
+hostmon		5355/udp			# hostmon uses UDP (nocol)
+rplay		5555/udp			# RPlay audio service
+nrpe		5666/tcp			# Nagios Remote Plugin Executor
+nsca		5667/tcp			# Nagios Agent - NSCA
+mrtd		5674/tcp			# MRT Routing Daemon
+bgpsim		5675/tcp			# MRT Routing Simulator
+canna		5680/tcp			# cannaserver
+syslog-tls	6514/tcp			# Syslog over TLS [RFC5425]
+sane-port	6566/tcp	sane saned	# SANE network scanner daemon
+ircd		6667/tcp			# Internet Relay Chat
+zope-ftp	8021/tcp			# zope management by ftp
+tproxy		8081/tcp			# Transparent Proxy
+omniorb		8088/tcp			# OmniORB
+omniorb		8088/udp
+clc-build-daemon 8990/tcp			# Common lisp build daemon
+xinetd		9098/tcp
+mandelspawn	9359/udp	mandelbrot	# network mandelbrot
+git		9418/tcp			# Git Version Control System
+zope		9673/tcp			# zope server
+webmin		10000/tcp
+kamanda		10081/tcp			# amanda backup services (Kerberos)
+kamanda		10081/udp
+amandaidx	10082/tcp			# amanda backup services
+amidxtape	10083/tcp			# amanda backup services
+smsqp		11201/tcp			# Alamin SMS gateway
+smsqp		11201/udp
+xpilot		15345/tcp			# XPilot Contact Port
+xpilot		15345/udp
+sgi-cmsd	17001/udp		# Cluster membership services daemon
+sgi-crsd	17002/udp
+sgi-gcd		17003/udp			# SGI Group membership daemon
+sgi-cad		17004/tcp			# Cluster Admin daemon
+isdnlog		20011/tcp			# isdn logging system
+isdnlog		20011/udp
+vboxd		20012/tcp			# voice box system
+vboxd		20012/udp
+binkp		24554/tcp			# binkp fidonet protocol
+asp		27374/tcp			# Address Search Protocol
+asp		27374/udp
+csync2		30865/tcp			# cluster synchronization tool
+dircproxy	57000/tcp			# Detachable IRC Proxy
+tfido		60177/tcp			# fidonet EMSI over telnet
+fido		60179/tcp			# fidonet EMSI over TCP
+
+# Local services
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ cat /etc/services 
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from http://www.iana.org/assignments/port-numbers and other
+# sources like http://www.freebsd.org/cgi/cvsweb.cgi/src/etc/services .
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+tcpmux		1/tcp				# TCP port service multiplexer
+echo		7/tcp
+echo		7/udp
+discard		9/tcp		sink null
+discard		9/udp		sink null
+systat		11/tcp		users
+daytime		13/tcp
+daytime		13/udp
+netstat		15/tcp
+qotd		17/tcp		quote
+msp		18/tcp				# message send protocol
+msp		18/udp
+chargen		19/tcp		ttytst source
+chargen		19/udp		ttytst source
+ftp-data	20/tcp
+ftp		21/tcp
+fsp		21/udp		fspd
+ssh		22/tcp				# SSH Remote Login Protocol
+telnet		23/tcp
+smtp		25/tcp		mail
+time		37/tcp		timserver
+time		37/udp		timserver
+rlp		39/udp		resource	# resource location
+nameserver	42/tcp		name		# IEN 116
+whois		43/tcp		nicname
+tacacs		49/tcp				# Login Host Protocol (TACACS)
+tacacs		49/udp
+re-mail-ck	50/tcp				# Remote Mail Checking Protocol
+re-mail-ck	50/udp
+domain		53/tcp				# Domain Name Server
+domain		53/udp
+tacacs-ds	65/tcp				# TACACS-Database Service
+tacacs-ds	65/udp
+bootps		67/tcp				# BOOTP server
+bootps		67/udp
+bootpc		68/tcp				# BOOTP client
+bootpc		68/udp
+tftp		69/udp
+gopher		70/tcp				# Internet Gopher
+finger		79/tcp
+http		80/tcp		www		# WorldWideWeb HTTP
+link		87/tcp		ttylink
+kerberos	88/tcp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+kerberos	88/udp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+supdup		95/tcp
+hostnames	101/tcp		hostname	# usually from sri-nic
+iso-tsap	102/tcp		tsap		# part of ISODE
+acr-nema	104/tcp		dicom		# Digital Imag. & Comm. 300
+acr-nema	104/udp		dicom
+csnet-ns	105/tcp		cso-ns		# also used by CSO name server
+csnet-ns	105/udp		cso-ns
+rtelnet		107/tcp				# Remote Telnet
+rtelnet		107/udp
+pop3		110/tcp		pop-3		# POP version 3
+sunrpc		111/tcp		portmapper	# RPC 4.0 portmapper
+sunrpc		111/udp		portmapper
+auth		113/tcp		authentication tap ident
+sftp		115/tcp
+nntp		119/tcp		readnews untp	# USENET News Transfer Protocol
+ntp		123/tcp
+ntp		123/udp				# Network Time Protocol
+pwdgen		129/tcp				# PWDGEN service
+pwdgen		129/udp
+loc-srv		135/tcp		epmap		# Location Service
+loc-srv		135/udp		epmap
+netbios-ns	137/tcp				# NETBIOS Name Service
+netbios-ns	137/udp
+netbios-dgm	138/tcp				# NETBIOS Datagram Service
+netbios-dgm	138/udp
+netbios-ssn	139/tcp				# NETBIOS session service
+netbios-ssn	139/udp
+imap2		143/tcp		imap		# Interim Mail Access P 2 and 4
+snmp		161/tcp				# Simple Net Mgmt Protocol
+snmp		161/udp
+snmp-trap	162/tcp		snmptrap	# Traps for SNMP
+snmp-trap	162/udp		snmptrap
+cmip-man	163/tcp				# ISO mgmt over IP (CMOT)
+cmip-man	163/udp
+cmip-agent	164/tcp
+cmip-agent	164/udp
+mailq		174/tcp			# Mailer transport queue for Zmailer
+mailq		174/udp
+xdmcp		177/tcp				# X Display Mgr. Control Proto
+xdmcp		177/udp
+nextstep	178/tcp		NeXTStep NextStep	# NeXTStep window
+nextstep	178/udp		NeXTStep NextStep	#  server
+bgp		179/tcp				# Border Gateway Protocol
+irc		194/tcp				# Internet Relay Chat
+irc		194/udp
+smux		199/tcp				# SNMP Unix Multiplexer
+smux		199/udp
+at-rtmp		201/tcp				# AppleTalk routing
+at-rtmp		201/udp
+at-nbp		202/tcp				# AppleTalk name binding
+at-nbp		202/udp
+at-echo		204/tcp				# AppleTalk echo
+at-echo		204/udp
+at-zis		206/tcp				# AppleTalk zone information
+at-zis		206/udp
+qmtp		209/tcp				# Quick Mail Transfer Protocol
+qmtp		209/udp
+z3950		210/tcp		wais		# NISO Z39.50 database
+z3950		210/udp		wais
+ipx		213/tcp				# IPX
+ipx		213/udp
+pawserv		345/tcp				# Perf Analysis Workbench
+pawserv		345/udp
+zserv		346/tcp				# Zebra server
+zserv		346/udp
+fatserv		347/tcp				# Fatmen Server
+fatserv		347/udp
+rpc2portmap	369/tcp
+rpc2portmap	369/udp				# Coda portmapper
+codaauth2	370/tcp
+codaauth2	370/udp				# Coda authentication server
+clearcase	371/tcp		Clearcase
+clearcase	371/udp		Clearcase
+ulistserv	372/tcp				# UNIX Listserv
+ulistserv	372/udp
+ldap		389/tcp			# Lightweight Directory Access Protocol
+ldap		389/udp
+imsp		406/tcp			# Interactive Mail Support Protocol
+imsp		406/udp
+svrloc		427/tcp				# Server Location
+svrloc		427/udp
+https		443/tcp				# http protocol over TLS/SSL
+snpp		444/tcp				# Simple Network Paging Protocol
+snpp		444/udp
+microsoft-ds	445/tcp				# Microsoft Naked CIFS
+microsoft-ds	445/udp
+kpasswd		464/tcp
+kpasswd		464/udp
+urd		465/tcp		ssmtp smtps  # URL Rendesvous Directory for SSM
+saft		487/tcp			# Simple Asynchronous File Transfer
+saft		487/udp
+isakmp		500/tcp			# IPsec - Internet Security Association
+isakmp		500/udp			#  and Key Management Protocol
+rtsp		554/tcp			# Real Time Stream Control Protocol
+rtsp		554/udp
+nqs		607/tcp				# Network Queuing system
+nqs		607/udp
+npmp-local	610/tcp		dqs313_qmaster		# npmp-local / DQS
+npmp-local	610/udp		dqs313_qmaster
+npmp-gui	611/tcp		dqs313_execd		# npmp-gui / DQS
+npmp-gui	611/udp		dqs313_execd
+hmmp-ind	612/tcp		dqs313_intercell	# HMMP Indication / DQS
+hmmp-ind	612/udp		dqs313_intercell
+asf-rmcp	623/udp		# ASF Remote Management and Control Protocol
+qmqp		628/tcp
+qmqp		628/udp
+ipp		631/tcp				# Internet Printing Protocol
+ipp		631/udp
+#
+# UNIX specific services
+#
+exec		512/tcp
+biff		512/udp		comsat
+login		513/tcp
+who		513/udp		whod
+shell		514/tcp		cmd		# no passwords used
+syslog		514/udp
+printer		515/tcp		spooler		# line printer spooler
+talk		517/udp
+ntalk		518/udp
+route		520/udp		router routed	# RIP
+timed		525/udp		timeserver
+tempo		526/tcp		newdate
+courier		530/tcp		rpc
+conference	531/tcp		chat
+netnews		532/tcp		readnews
+netwall		533/udp				# for emergency broadcasts
+gdomap		538/tcp				# GNUstep distributed objects
+gdomap		538/udp
+uucp		540/tcp		uucpd		# uucp daemon
+klogin		543/tcp				# Kerberized `rlogin' (v5)
+kshell		544/tcp		krcmd		# Kerberized `rsh' (v5)
+dhcpv6-client	546/tcp
+dhcpv6-client	546/udp
+dhcpv6-server	547/tcp
+dhcpv6-server	547/udp
+afpovertcp	548/tcp				# AFP over TCP
+afpovertcp	548/udp
+idfp		549/tcp
+idfp		549/udp
+remotefs	556/tcp		rfs_server rfs	# Brunhoff remote filesystem
+nntps		563/tcp		snntp		# NNTP over SSL
+submission	587/tcp				# Submission [RFC4409]
+ldaps		636/tcp				# LDAP over SSL
+ldaps		636/udp
+tinc		655/tcp				# tinc control port
+tinc		655/udp
+silc		706/tcp
+silc		706/udp
+kerberos-adm	749/tcp				# Kerberos `kadmin' (v5)
+#
+webster		765/tcp				# Network dictionary
+webster		765/udp
+rsync		873/tcp
+ftps-data	989/tcp				# FTP over SSL (data)
+ftps		990/tcp
+telnets		992/tcp				# Telnet over SSL
+imaps		993/tcp				# IMAP over SSL
+pop3s		995/tcp				# POP-3 over SSL
+#
+# From ``Assigned Numbers'':
+#
+#> The Registered Ports are not controlled by the IANA and on most systems
+#> can be used by ordinary user processes or programs executed by ordinary
+#> users.
+#
+#> Ports are used in the TCP [45,106] to name the ends of logical
+#> connections which carry long term conversations.  For the purpose of
+#> providing services to unknown callers, a service contact port is
+#> defined.  This list specifies the port used by the server process as its
+#> contact port.  While the IANA can not control uses of these ports it
+#> does register or list uses of these ports as a convienence to the
+#> community.
+#
+socks		1080/tcp			# socks proxy server
+socks		1080/udp
+proofd		1093/tcp
+proofd		1093/udp
+rootd		1094/tcp
+rootd		1094/udp
+openvpn		1194/tcp
+openvpn		1194/udp
+rmiregistry	1099/tcp			# Java RMI Registry
+rmiregistry	1099/udp
+kazaa		1214/tcp
+kazaa		1214/udp
+nessus		1241/tcp			# Nessus vulnerability
+nessus		1241/udp			#  assessment scanner
+lotusnote	1352/tcp	lotusnotes	# Lotus Note
+lotusnote	1352/udp	lotusnotes
+ms-sql-s	1433/tcp			# Microsoft SQL Server
+ms-sql-s	1433/udp
+ms-sql-m	1434/tcp			# Microsoft SQL Monitor
+ms-sql-m	1434/udp
+ingreslock	1524/tcp
+ingreslock	1524/udp
+datametrics	1645/tcp	old-radius
+datametrics	1645/udp	old-radius
+sa-msg-port	1646/tcp	old-radacct
+sa-msg-port	1646/udp	old-radacct
+kermit		1649/tcp
+kermit		1649/udp
+groupwise	1677/tcp
+groupwise	1677/udp
+l2f		1701/tcp	l2tp
+l2f		1701/udp	l2tp
+radius		1812/tcp
+radius		1812/udp
+radius-acct	1813/tcp	radacct		# Radius Accounting
+radius-acct	1813/udp	radacct
+msnp		1863/tcp			# MSN Messenger
+msnp		1863/udp
+unix-status	1957/tcp			# remstats unix-status server
+log-server	1958/tcp			# remstats log server
+remoteping	1959/tcp			# remstats remoteping server
+cisco-sccp	2000/tcp			# Cisco SCCP
+cisco-sccp	2000/udp
+search		2010/tcp	ndtp
+pipe-server	2010/tcp	pipe_server
+nfs		2049/tcp			# Network File System
+nfs		2049/udp			# Network File System
+gnunet		2086/tcp
+gnunet		2086/udp
+rtcm-sc104	2101/tcp			# RTCM SC-104 IANA 1/29/99
+rtcm-sc104	2101/udp
+gsigatekeeper	2119/tcp
+gsigatekeeper	2119/udp
+gris		2135/tcp		# Grid Resource Information Server
+gris		2135/udp
+cvspserver	2401/tcp			# CVS client/server operations
+cvspserver	2401/udp
+venus		2430/tcp			# codacon port
+venus		2430/udp			# Venus callback/wbc interface
+venus-se	2431/tcp			# tcp side effects
+venus-se	2431/udp			# udp sftp side effect
+codasrv		2432/tcp			# not used
+codasrv		2432/udp			# server port
+codasrv-se	2433/tcp			# tcp side effects
+codasrv-se	2433/udp			# udp sftp side effect
+mon		2583/tcp			# MON traps
+mon		2583/udp
+dict		2628/tcp			# Dictionary server
+dict		2628/udp
+f5-globalsite	2792/tcp
+f5-globalsite	2792/udp
+gsiftp		2811/tcp
+gsiftp		2811/udp
+gpsd		2947/tcp
+gpsd		2947/udp
+gds-db		3050/tcp	gds_db		# InterBase server
+gds-db		3050/udp	gds_db
+icpv2		3130/tcp	icp		# Internet Cache Protocol
+icpv2		3130/udp	icp
+isns		3205/tcp			# iSNS Server Port
+isns		3205/udp			# iSNS Server Port
+iscsi-target	3260/tcp
+mysql		3306/tcp
+mysql		3306/udp
+nut		3493/tcp			# Network UPS Tools
+nut		3493/udp
+distcc		3632/tcp			# distributed compiler
+distcc		3632/udp
+daap		3689/tcp			# Digital Audio Access Protocol
+daap		3689/udp
+svn		3690/tcp	subversion	# Subversion protocol
+svn		3690/udp	subversion
+suucp		4031/tcp			# UUCP over SSL
+suucp		4031/udp
+sysrqd		4094/tcp			# sysrq daemon
+sysrqd		4094/udp
+sieve		4190/tcp			# ManageSieve Protocol
+epmd		4369/tcp			# Erlang Port Mapper Daemon
+epmd		4369/udp
+remctl		4373/tcp		# Remote Authenticated Command Service
+remctl		4373/udp
+f5-iquery	4353/tcp			# F5 iQuery
+f5-iquery	4353/udp
+ipsec-nat-t	4500/udp			# IPsec NAT-Traversal [RFC3947]
+iax		4569/tcp			# Inter-Asterisk eXchange
+iax		4569/udp
+mtn		4691/tcp			# monotone Netsync Protocol
+mtn		4691/udp
+radmin-port	4899/tcp			# RAdmin Port
+radmin-port	4899/udp
+rfe		5002/udp			# Radio Free Ethernet
+rfe		5002/tcp
+mmcc		5050/tcp	# multimedia conference control tool (Yahoo IM)
+mmcc		5050/udp
+sip		5060/tcp			# Session Initiation Protocol
+sip		5060/udp
+sip-tls		5061/tcp
+sip-tls		5061/udp
+aol		5190/tcp			# AIM
+aol		5190/udp
+xmpp-client	5222/tcp	jabber-client	# Jabber Client Connection
+xmpp-client	5222/udp	jabber-client
+xmpp-server	5269/tcp	jabber-server	# Jabber Server Connection
+xmpp-server	5269/udp	jabber-server
+cfengine	5308/tcp
+cfengine	5308/udp
+mdns		5353/tcp			# Multicast DNS
+mdns		5353/udp
+postgresql	5432/tcp	postgres	# PostgreSQL Database
+postgresql	5432/udp	postgres
+freeciv		5556/tcp	rptp		# Freeciv gameplay
+freeciv		5556/udp
+amqps		5671/tcp			# AMQP protocol over TLS/SSL
+amqp		5672/tcp
+amqp		5672/udp
+amqp		5672/sctp
+ggz		5688/tcp			# GGZ Gaming Zone
+ggz		5688/udp
+x11		6000/tcp	x11-0		# X Window System
+x11		6000/udp	x11-0
+x11-1		6001/tcp
+x11-1		6001/udp
+x11-2		6002/tcp
+x11-2		6002/udp
+x11-3		6003/tcp
+x11-3		6003/udp
+x11-4		6004/tcp
+x11-4		6004/udp
+x11-5		6005/tcp
+x11-5		6005/udp
+x11-6		6006/tcp
+x11-6		6006/udp
+x11-7		6007/tcp
+x11-7		6007/udp
+gnutella-svc	6346/tcp			# gnutella
+gnutella-svc	6346/udp
+gnutella-rtr	6347/tcp			# gnutella
+gnutella-rtr	6347/udp
+sge-qmaster	6444/tcp	sge_qmaster	# Grid Engine Qmaster Service
+sge-qmaster	6444/udp	sge_qmaster
+sge-execd	6445/tcp	sge_execd	# Grid Engine Execution Service
+sge-execd	6445/udp	sge_execd
+mysql-proxy	6446/tcp			# MySQL Proxy
+mysql-proxy	6446/udp
+babel		6696/udp			# Babel Routing Protocol
+ircs-u		6697/tcp		# Internet Relay Chat via TLS/SSL
+afs3-fileserver 7000/tcp	bbs		# file server itself
+afs3-fileserver 7000/udp	bbs
+afs3-callback	7001/tcp			# callbacks to cache managers
+afs3-callback	7001/udp
+afs3-prserver	7002/tcp			# users & groups database
+afs3-prserver	7002/udp
+afs3-vlserver	7003/tcp			# volume location database
+afs3-vlserver	7003/udp
+afs3-kaserver	7004/tcp			# AFS/Kerberos authentication
+afs3-kaserver	7004/udp
+afs3-volser	7005/tcp			# volume managment server
+afs3-volser	7005/udp
+afs3-errors	7006/tcp			# error interpretation service
+afs3-errors	7006/udp
+afs3-bos	7007/tcp			# basic overseer process
+afs3-bos	7007/udp
+afs3-update	7008/tcp			# server-to-server updater
+afs3-update	7008/udp
+afs3-rmtsys	7009/tcp			# remote cache manager service
+afs3-rmtsys	7009/udp
+font-service	7100/tcp	xfs		# X Font Service
+font-service	7100/udp	xfs
+http-alt	8080/tcp	webcache	# WWW caching service
+http-alt	8080/udp
+puppet		8140/tcp			# The Puppet master service
+bacula-dir	9101/tcp			# Bacula Director
+bacula-dir	9101/udp
+bacula-fd	9102/tcp			# Bacula File Daemon
+bacula-fd	9102/udp
+bacula-sd	9103/tcp			# Bacula Storage Daemon
+bacula-sd	9103/udp
+xmms2		9667/tcp	# Cross-platform Music Multiplexing System
+xmms2		9667/udp
+nbd		10809/tcp			# Linux Network Block Device
+zabbix-agent	10050/tcp			# Zabbix Agent
+zabbix-agent	10050/udp
+zabbix-trapper	10051/tcp			# Zabbix Trapper
+zabbix-trapper	10051/udp
+amanda		10080/tcp			# amanda backup services
+amanda		10080/udp
+dicom		11112/tcp
+hkp		11371/tcp			# OpenPGP HTTP Keyserver
+hkp		11371/udp
+bprd		13720/tcp			# VERITAS NetBackup
+bprd		13720/udp
+bpdbm		13721/tcp			# VERITAS NetBackup
+bpdbm		13721/udp
+bpjava-msvc	13722/tcp			# BP Java MSVC Protocol
+bpjava-msvc	13722/udp
+vnetd		13724/tcp			# Veritas Network Utility
+vnetd		13724/udp
+bpcd		13782/tcp			# VERITAS NetBackup
+bpcd		13782/udp
+vopied		13783/tcp			# VERITAS NetBackup
+vopied		13783/udp
+db-lsp		17500/tcp			# Dropbox LanSync Protocol
+dcap		22125/tcp			# dCache Access Protocol
+gsidcap		22128/tcp			# GSI dCache Access Protocol
+wnn6		22273/tcp			# wnn6
+wnn6		22273/udp
+
+#
+# Datagram Delivery Protocol services
+#
+rtmp		1/ddp			# Routing Table Maintenance Protocol
+nbp		2/ddp			# Name Binding Protocol
+echo		4/ddp			# AppleTalk Echo Protocol
+zip		6/ddp			# Zone Information Protocol
+
+#=========================================================================
+# The remaining port numbers are not as allocated by IANA.
+#=========================================================================
+
+# Kerberos (Project Athena/MIT) services
+# Note that these are for Kerberos v4, and are unofficial.  Sites running
+# v4 should uncomment these and comment out the v5 entries above.
+#
+kerberos4	750/udp		kerberos-iv kdc	# Kerberos (server)
+kerberos4	750/tcp		kerberos-iv kdc
+kerberos-master	751/udp		kerberos_master	# Kerberos authentication
+kerberos-master	751/tcp
+passwd-server	752/udp		passwd_server	# Kerberos passwd server
+krb-prop	754/tcp		krb_prop krb5_prop hprop # Kerberos slave propagation
+krbupdate	760/tcp		kreg		# Kerberos registration
+swat		901/tcp				# swat
+kpop		1109/tcp			# Pop with Kerberos
+knetd		2053/tcp			# Kerberos de-multiplexor
+zephyr-srv	2102/udp			# Zephyr server
+zephyr-clt	2103/udp			# Zephyr serv-hm connection
+zephyr-hm	2104/udp			# Zephyr hostmanager
+eklogin		2105/tcp			# Kerberos encrypted rlogin
+# Hmmm. Are we using Kv4 or Kv5 now? Worrying.
+# The following is probably Kerberos v5  --- ajt@debian.org (11/02/2000)
+kx		2111/tcp			# X over Kerberos
+iprop		2121/tcp			# incremental propagation
+#
+# Unofficial but necessary (for NetBSD) services
+#
+supfilesrv	871/tcp				# SUP server
+supfiledbg	1127/tcp			# SUP debugging
+
+#
+# Services added for the Debian GNU/Linux distribution
+#
+linuxconf	98/tcp				# LinuxConf
+poppassd	106/tcp				# Eudora
+poppassd	106/udp
+moira-db	775/tcp		moira_db	# Moira database
+moira-update	777/tcp		moira_update	# Moira update protocol
+moira-ureg	779/udp		moira_ureg	# Moira user registration
+spamd		783/tcp				# spamassassin daemon
+omirr		808/tcp		omirrd		# online mirror
+omirr		808/udp		omirrd
+customs		1001/tcp			# pmake customs server
+customs		1001/udp
+skkserv		1178/tcp			# skk jisho server port
+predict		1210/udp			# predict -- satellite tracking
+rmtcfg		1236/tcp			# Gracilis Packeten remote config server
+wipld		1300/tcp			# Wipl network monitor
+xtel		1313/tcp			# french minitel
+xtelw		1314/tcp			# french minitel
+support		1529/tcp			# GNATS
+cfinger		2003/tcp			# GNU Finger
+frox		2121/tcp			# frox: caching ftp proxy
+ninstall	2150/tcp			# ninstall service
+ninstall	2150/udp
+zebrasrv	2600/tcp			# zebra service
+zebra		2601/tcp			# zebra vty
+ripd		2602/tcp			# ripd vty (zebra)
+ripngd		2603/tcp			# ripngd vty (zebra)
+ospfd		2604/tcp			# ospfd vty (zebra)
+bgpd		2605/tcp			# bgpd vty (zebra)
+ospf6d		2606/tcp			# ospf6d vty (zebra)
+ospfapi		2607/tcp			# OSPF-API
+isisd		2608/tcp			# ISISd vty (zebra)
+afbackup	2988/tcp			# Afbackup system
+afbackup	2988/udp
+afmbackup	2989/tcp			# Afmbackup system
+afmbackup	2989/udp
+xtell		4224/tcp			# xtell server
+fax		4557/tcp			# FAX transmission service (old)
+hylafax		4559/tcp			# HylaFAX client-server protocol (new)
+distmp3		4600/tcp			# distmp3host daemon
+munin		4949/tcp	lrrd		# Munin
+enbd-cstatd	5051/tcp			# ENBD client statd
+enbd-sstatd	5052/tcp			# ENBD server statd
+pcrd		5151/tcp			# PCR-1000 Daemon
+noclog		5354/tcp			# noclogd with TCP (nocol)
+noclog		5354/udp			# noclogd with UDP (nocol)
+hostmon		5355/tcp			# hostmon uses TCP (nocol)
+hostmon		5355/udp			# hostmon uses UDP (nocol)
+rplay		5555/udp			# RPlay audio service
+nrpe		5666/tcp			# Nagios Remote Plugin Executor
+nsca		5667/tcp			# Nagios Agent - NSCA
+mrtd		5674/tcp			# MRT Routing Daemon
+bgpsim		5675/tcp			# MRT Routing Simulator
+canna		5680/tcp			# cannaserver
+syslog-tls	6514/tcp			# Syslog over TLS [RFC5425]
+sane-port	6566/tcp	sane saned	# SANE network scanner daemon
+ircd		6667/tcp			# Internet Relay Chat
+zope-ftp	8021/tcp			# zope management by ftp
+tproxy		8081/tcp			# Transparent Proxy
+omniorb		8088/tcp			# OmniORB
+omniorb		8088/udp
+clc-build-daemon 8990/tcp			# Common lisp build daemon
+xinetd		9098/tcp
+mandelspawn	9359/udp	mandelbrot	# network mandelbrot
+git		9418/tcp			# Git Version Control System
+zope		9673/tcp			# zope server
+webmin		10000/tcp
+kamanda		10081/tcp			# amanda backup services (Kerberos)
+kamanda		10081/udp
+amandaidx	10082/tcp			# amanda backup services
+amidxtape	10083/tcp			# amanda backup services
+smsqp		11201/tcp			# Alamin SMS gateway
+smsqp		11201/udp
+xpilot		15345/tcp			# XPilot Contact Port
+xpilot		15345/udp
+sgi-cmsd	17001/udp		# Cluster membership services daemon
+sgi-crsd	17002/udp
+sgi-gcd		17003/udp			# SGI Group membership daemon
+sgi-cad		17004/tcp			# Cluster Admin daemon
+isdnlog		20011/tcp			# isdn logging system
+isdnlog		20011/udp
+vboxd		20012/tcp			# voice box system
+vboxd		20012/udp
+binkp		24554/tcp			# binkp fidonet protocol
+asp		27374/tcp			# Address Search Protocol
+asp		27374/udp
+csync2		30865/tcp			# cluster synchronization tool
+dircproxy	57000/tcp			# Detachable IRC Proxy
+tfido		60177/tcp			# fidonet EMSI over telnet
+fido		60179/tcp			# fidonet EMSI over TCP
+
+# Local services
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ stty stop <s[Kcrtl>+s
+bash: crtl: No such file or directory
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ stty stop <crtl>+s[1Pl>+s[1Pl>+stl>+srl>+s
+bash: ctrl: No such file or directory
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ps
+  PID TTY          TIME CMD
+ 1136 pts/0    00:00:01 bash
+ 1314 pts/0    00:00:00 ps
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ps efy-efy
+error: modifier -y without format -l makes no sense
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ ps -efy[K[K[Ku
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+joemarb+  1009  0.0  0.0  16912  3664 tty6     S    Jan22   0:00 -bash
+joemarb+  1135  0.0  0.0  14488  1268 tty6     R    18:21   0:00 script
+joemarb+  1136  0.0  0.0  16944  3632 pts/0    Ss   18:21   0:01 bash -i
+joemarb+  1156  0.0  0.0  17012  3692 tty2     S    18:44   0:00 -bash
+joemarb+  1205  0.0  0.0  14804  1132 tty2     T    18:53   0:00 grep --color=auto ^[0-9]
+joemarb+  1217  0.0  0.0  14804  1148 tty2     T    18:56   0:00 grep --color=auto /etc/
+joemarb+  1316  0.0  0.0  17384  1924 pts/0    R    19:14   0:00 ps -u
+]0;joemarbell@DESKTOP-EUH7R9D: ~/labs/os[01;32mjoemarbell@DESKTOP-EUH7R9D[00m:[01;34m~/labs/os[00m$ e[Kexit
+
+Script done on 2021-01-24 19:14:22+0000
